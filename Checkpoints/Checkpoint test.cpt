@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>Checkpoint test</name>
+   <tag></tag>
+   <source-info>
+      <is-from-test-data>true</is-from-test-data>
+      <source-url>Data Files/Data1</source-url>
+   </source-info>
+   <taken-date>2020-04-06T14:42:13.782</taken-date>
+   <column-names>
+      <column-name>firstname</column-name>
+      <column-name>lastname</column-name>
+      <column-name>montant</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "FADOUA",
+      "checked": true
+    },
+    {
+      "value": "L",
+      "checked": true
+    },
+    {
+      "value": 50000.0,
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "RAJAA",
+      "checked": true
+    },
+    {
+      "value": "L",
+      "checked": true
+    },
+    {
+      "value": 80000.0,
+      "checked": true
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>

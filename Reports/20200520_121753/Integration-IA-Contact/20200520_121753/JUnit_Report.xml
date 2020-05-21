@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Integration-IA-Contact" time="173.474" tests="2" failures="2" errors="0">
+   <testsuite name="Integration-IA-Contact" tests="2" failures="2" errors="0" time="173.474" timestamp="2020-05-20 12:17:55" hostname="nezha.e - DESKTOP-9BRT4J2" id="Test Suites/Integration-IA-Contact">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\nezha.e\\Desktop\\Katalon\\Reports\\20200520_121753\\Integration-IA-Contact\\20200520_121753"/>
+         <property name="logFiles" value="C:\\Users\\nezha.e\\Desktop\\Katalon\\Reports\\20200520_121753\\Integration-IA-Contact\\20200520_121753\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\nezha.e\\Desktop\\Katalon\\Reports\\20200520_121753\\Integration-IA-Contact\\20200520_121753\\1589977231905.png"/>
+         <property name="hostName" value="nezha.e - DESKTOP-9BRT4J2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.4.0.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="192.168.0.107"/>
+         <property name="sessionId" value="4e5dd3f6d7176f5760fb25f4724acf22"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Contact" time="156.887" classname="Test Cases/Contact" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Contact FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '014092839' of object 'Object Repository/CreationContact/Page_IAD/input_Tlphone_phone4'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Contact.run(Contact:142)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589977073245.run(TempTestSuite1589977073245.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CreationContact/Page_IAD/input_Tlphone_phone4' located by 'By.xpath: //input[@id='phone4']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-20 12:17:55 - [TEST_CASE][FAILED] - Test Cases/Contact: Test Cases/Contact FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '014092839' of object 'Object Repository/CreationContact/Page_IAD/input_Tlphone_phone4'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Contact.run(Contact:142)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589977073245.run(TempTestSuite1589977073245.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CreationContact/Page_IAD/input_Tlphone_phone4' located by 'By.xpath: //input[@id='phone4']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-20 12:17:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-20 12:17:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-20 12:17:56 - [MESSAGE][INFO] - Action delay is set to 2 000 milliseconds
+
+2020-05-20 12:18:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-20 12:18:00 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'http://p13.demo.iadholding.com' successfully
+
+2020-05-20 12:18:03 - [MESSAGE][PASSED] - Navigate to 'http://p13.demo.iadholding.com' successfully
+
+2020-05-20 12:18:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_Welcome page/button_Accder")): Object: 'Object Repository/CreationContact/Page_Welcome page/button_Accder' is clicked on
+
+2020-05-20 12:18:06 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_Welcome page/button_Accder' is clicked on
+
+2020-05-20 12:18:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Identifiant_username"), usernameConseiller): Text '293@iadfrance.fr' is set on object 'Object Repository/CreationContact/Page_IAD/input_Identifiant_username'
+
+2020-05-20 12:18:11 - [MESSAGE][PASSED] - Text '293@iadfrance.fr' is set on object 'Object Repository/CreationContact/Page_IAD/input_Identifiant_username'
+
+2020-05-20 12:18:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Mot de passe_password"), mp): Text ****** has been set on object 'Object Repository/CreationContact/Page_IAD/input_Mot de passe_password'
+
+2020-05-20 12:18:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/CreationContact/Page_IAD/input_Mot de passe_password'
+
+2020-05-20 12:18:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/input_Mot de passe_submit")): Object: 'Object Repository/CreationContact/Page_IAD/input_Mot de passe_submit' is clicked on
+
+2020-05-20 12:18:21 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/input_Mot de passe_submit' is clicked on
+
+2020-05-20 12:18:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/button_Dmarrer")): Object: 'Object Repository/CreationContact/Page_IAD/button_Dmarrer' is clicked on
+
+2020-05-20 12:18:24 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/button_Dmarrer' is clicked on
+
+2020-05-20 12:18:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/div_Quitter")): Object: 'Object Repository/CreationContact/Page_IAD/div_Quitter' is clicked on
+
+2020-05-20 12:18:27 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/div_Quitter' is clicked on
+
+2020-05-20 12:18:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/a_Production")): Object: 'Object Repository/CreationContact/Page_IAD/a_Production' is clicked on
+
+2020-05-20 12:18:30 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/a_Production' is clicked on
+
+2020-05-20 12:18:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/a_Myiad contacts")): Object: 'Object Repository/CreationContact/Page_IAD/a_Myiad contacts' is clicked on
+
+2020-05-20 12:18:34 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/a_Myiad contacts' is clicked on
+
+2020-05-20 12:18:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/button_Crer")): Object: 'Object Repository/CreationContact/Page_IAD/button_Crer' is clicked on
+
+2020-05-20 12:18:41 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/button_Crer' is clicked on
+
+2020-05-20 12:18:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/div_Nouveau contact_myiad-avatar")): Object: 'Object Repository/CreationContact/Page_IAD/div_Nouveau contact_myiad-avatar' is clicked on
+
+2020-05-20 12:18:44 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/div_Nouveau contact_myiad-avatar' is clicked on
+
+2020-05-20 12:18:44 - [TEST_STEP][PASSED] - Seq5 = Math.random() * 9 - 6: null
+
+2020-05-20 12:18:44 - [TEST_STEP][PASSED] - seq55 = Seq5 * 100: null
+
+2020-05-20 12:18:44 - [TEST_STEP][PASSED] - jdcontact = seq55: null
+
+2020-05-20 12:18:44 - [TEST_STEP][PASSED] - jdcont = $jdcontact: null
+
+2020-05-20 12:18:44 - [TEST_STEP][PASSED] - firstname = "test" + jdcont: null
+
+2020-05-20 12:18:44 - [TEST_STEP][PASSED] - println(firstname): null
+
+2020-05-20 12:18:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Prnom_firstName"), firstname): Text 'test227' is set on object 'Object Repository/CreationContact/Page_IAD/input_Prnom_firstName'
+
+2020-05-20 12:18:49 - [MESSAGE][PASSED] - Text 'test227' is set on object 'Object Repository/CreationContact/Page_IAD/input_Prnom_firstName'
+
+2020-05-20 12:18:49 - [TEST_STEP][PASSED] - lastname = "test1" + jdcont: null
+
+2020-05-20 12:18:49 - [TEST_STEP][PASSED] - println(lastname): null
+
+2020-05-20 12:18:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Nom_lastName"), lastname): Text 'test1227' is set on object 'Object Repository/CreationContact/Page_IAD/input_Nom_lastName'
+
+2020-05-20 12:18:54 - [MESSAGE][PASSED] - Text 'test1227' is set on object 'Object Repository/CreationContact/Page_IAD/input_Nom_lastName'
+
+2020-05-20 12:18:54 - [TEST_STEP][PASSED] - usedname = "test3" + jdcont: null
+
+2020-05-20 12:18:54 - [TEST_STEP][PASSED] - println(usedname): null
+
+2020-05-20 12:18:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_concat(Nom d  usage)_usageName"), usedname): Text 'test3227' is set on object 'Object Repository/CreationContact/Page_IAD/input_concat(Nom d  usage)_usageName'
+
+2020-05-20 12:18:59 - [MESSAGE][PASSED] - Text 'test3227' is set on object 'Object Repository/CreationContact/Page_IAD/input_concat(Nom d  usage)_usageName'
+
+2020-05-20 12:18:59 - [TEST_STEP][PASSED] - jeunefille = "test4" + jdcont: null
+
+2020-05-20 12:18:59 - [TEST_STEP][PASSED] - println(jeunefille): null
+
+2020-05-20 12:18:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Nom de jeune fille_birthName"), jeunefille): Text 'test4227' is set on object 'Object Repository/CreationContact/Page_IAD/input_Nom de jeune fille_birthName'
+
+2020-05-20 12:19:04 - [MESSAGE][PASSED] - Text 'test4227' is set on object 'Object Repository/CreationContact/Page_IAD/input_Nom de jeune fille_birthName'
+
+2020-05-20 12:19:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/input_Date de naissance_birthDate")): Object: 'Object Repository/CreationContact/Page_IAD/input_Date de naissance_birthDate' is clicked on
+
+2020-05-20 12:19:06 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/input_Date de naissance_birthDate' is clicked on
+
+2020-05-20 12:19:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/span_13")): Object: 'Object Repository/CreationContact/Page_IAD/span_13' is clicked on
+
+2020-05-20 12:19:09 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_13' is clicked on
+
+2020-05-20 12:19:09 - [TEST_STEP][PASSED] - datebirth = getAttribute(findTestObject("CreationContact/Page_IAD/input_Date de naissance_birthDate"), "value"): Attribute 'value' of object 'Object Repository/CreationContact/Page_IAD/input_Date de naissance_birthDate' is: '13/05/2020'
+
+2020-05-20 12:19:10 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/CreationContact/Page_IAD/input_Date de naissance_birthDate' is: '13/05/2020'
+
+2020-05-20 12:19:10 - [TEST_STEP][PASSED] - DateNaissance = datebirth: null
+
+2020-05-20 12:19:10 - [TEST_STEP][PASSED] - println(DateNaissance): null
+
+2020-05-20 12:19:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/span_Lieu de naissance_btn btn-default form_bf2c5d")): Object: 'Object Repository/CreationContact/Page_IAD/span_Lieu de naissance_btn btn-default form_bf2c5d' is clicked on
+
+2020-05-20 12:19:12 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_Lieu de naissance_btn btn-default form_bf2c5d' is clicked on
+
+2020-05-20 12:19:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/span_02")): Object: 'Object Repository/CreationContact/Page_IAD/span_02' is clicked on
+
+2020-05-20 12:19:15 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_02' is clicked on
+
+2020-05-20 12:19:15 - [TEST_STEP][PASSED] - lieuBirth = "test5" + jdcont: null
+
+2020-05-20 12:19:15 - [TEST_STEP][PASSED] - println(lieuBirth): null
+
+2020-05-20 12:19:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Lieu de naissance_birthPlace"), lieuBirth): Text 'test5227' is set on object 'Object Repository/CreationContact/Page_IAD/input_Lieu de naissance_birthPlace'
+
+2020-05-20 12:19:20 - [MESSAGE][PASSED] - Text 'test5227' is set on object 'Object Repository/CreationContact/Page_IAD/input_Lieu de naissance_birthPlace'
+
+2020-05-20 12:19:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/span_Choisir")): Object: 'Object Repository/CreationContact/Page_IAD/span_Choisir' is clicked on
+
+2020-05-20 12:19:23 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_Choisir' is clicked on
+
+2020-05-20 12:19:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Choisir_form-control ui-select-search_780576"), "France"): Text 'France' is set on object 'Object Repository/CreationContact/Page_IAD/input_Choisir_form-control ui-select-search_780576'
+
+2020-05-20 12:19:29 - [MESSAGE][PASSED] - Text 'France' is set on object 'Object Repository/CreationContact/Page_IAD/input_Choisir_form-control ui-select-search_780576'
+
+2020-05-20 12:19:29 - [TEST_STEP][PASSED] - pays1 = getText(findTestObject("CreationContact/Page_IAD/span_FRANCE")): Text of object 'Object Repository/CreationContact/Page_IAD/span_FRANCE' is: 'FRANCE'
+
+2020-05-20 12:19:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/CreationContact/Page_IAD/span_FRANCE' is: 'FRANCE'
+
+2020-05-20 12:19:30 - [TEST_STEP][PASSED] - click(findTestObject("CreationContact/Page_IAD/span_FRANCE")): Object: 'Object Repository/CreationContact/Page_IAD/span_FRANCE' is clicked on
+
+2020-05-20 12:19:32 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_FRANCE' is clicked on
+
+2020-05-20 12:19:32 - [TEST_STEP][PASSED] - pays = pays1: null
+
+2020-05-20 12:19:32 - [TEST_STEP][PASSED] - println(pays): null
+
+2020-05-20 12:19:32 - [TEST_STEP][PASSED] - profession = "test8" + jdcont: null
+
+2020-05-20 12:19:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Profession_job"), profession): Text 'test8227' is set on object 'Object Repository/CreationContact/Page_IAD/input_Profession_job'
+
+2020-05-20 12:19:37 - [MESSAGE][PASSED] - Text 'test8227' is set on object 'Object Repository/CreationContact/Page_IAD/input_Profession_job'
+
+2020-05-20 12:19:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/span_Contact  Adresse")): Object: 'Object Repository/CreationContact/Page_IAD/span_Contact  Adresse' is clicked on
+
+2020-05-20 12:19:40 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_Contact  Adresse' is clicked on
+
+2020-05-20 12:19:40 - [TEST_STEP][PASSED] - Seqphone = Math.random() * 9 - 6: null
+
+2020-05-20 12:19:40 - [TEST_STEP][PASSED] - ifseq = Seqphone: null
+
+2020-05-20 12:19:40 - [TEST_STEP][PASSED] - if (ifseq == 0): null
+
+2020-05-20 12:19:40 - [TEST_STEP][PASSED] - phoneseq1 = Seqphone * 100000000: null
+
+2020-05-20 12:19:40 - [TEST_STEP][PASSED] - phone = phoneseq1: null
+
+2020-05-20 12:19:40 - [TEST_STEP][PASSED] - println(phone): null
+
+2020-05-20 12:19:40 - [TEST_STEP][PASSED] - phone1 = "06" + phone: null
+
+2020-05-20 12:19:40 - [TEST_STEP][PASSED] - println(phone1): null
+
+2020-05-20 12:19:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Tlphone_phone2"), phone1): Text '064092839' is set on object 'Object Repository/CreationContact/Page_IAD/input_Tlphone_phone2'
+
+2020-05-20 12:19:45 - [MESSAGE][PASSED] - Text '064092839' is set on object 'Object Repository/CreationContact/Page_IAD/input_Tlphone_phone2'
+
+2020-05-20 12:19:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/span_Ajouter un tlphone_fa fa-plus")): Object: 'Object Repository/CreationContact/Page_IAD/span_Ajouter un tlphone_fa fa-plus' is clicked on
+
+2020-05-20 12:19:47 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_Ajouter un tlphone_fa fa-plus' is clicked on
+
+2020-05-20 12:19:47 - [TEST_STEP][PASSED] - phone2 = "01" + phone: null
+
+2020-05-20 12:19:47 - [TEST_STEP][PASSED] - println(phone2): null
+
+2020-05-20 12:19:47 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Tlphone_phone4"), phone2): Unable to set text '014092839' of object 'Object Repository/CreationContact/Page_IAD/input_Tlphone_phone4' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '014092839' of object 'Object Repository/CreationContact/Page_IAD/input_Tlphone_phone4'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Contact.run(Contact:142)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589977073245.run(TempTestSuite1589977073245.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CreationContact/Page_IAD/input_Tlphone_phone4' located by 'By.xpath: //input[@id='phone4']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Script1589968567448.run(Script1589968567448.groovy:142)
+	... 13 more
+)
+
+2020-05-20 12:20:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='phone4']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-05-20 12:20:32 - [MESSAGE][FAILED] - Unable to set text '014092839' of object 'Object Repository/CreationContact/Page_IAD/input_Tlphone_phone4' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '014092839' of object 'Object Repository/CreationContact/Page_IAD/input_Tlphone_phone4'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Contact.run(Contact:142)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589977073245.run(TempTestSuite1589977073245.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CreationContact/Page_IAD/input_Tlphone_phone4' located by 'By.xpath: //input[@id='phone4']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Script1589968567448.run(Script1589968567448.groovy:142)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\nezha.e\\Desktop\\Katalon\\Reports\\20200520_121753\\Integration-IA-Contact\\20200520_121753\\1589977231905.png]]]]></system-out>
+         <system-err><![CDATA[2020-05-20 12:17:55 - [TEST_CASE][FAILED] - Test Cases/Contact: Test Cases/Contact FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '014092839' of object 'Object Repository/CreationContact/Page_IAD/input_Tlphone_phone4'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Contact.run(Contact:142)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589977073245.run(TempTestSuite1589977073245.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CreationContact/Page_IAD/input_Tlphone_phone4' located by 'By.xpath: //input[@id='phone4']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Projet" time="15.302" classname="Test Cases/Projet" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Projet FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Creation_projet/Page_IAD (1)/span_Crer'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Projet.run(Projet:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589977073245.run(TempTestSuite1589977073245.groovy:37)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-9BRT4J2', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\nezha.e\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4e5dd3f6d7176f5760fb25f4724acf22
+*** Element info: {Using=xpath, value=(.//*[normalize-space(text()) and normalize-space(.)='Afficher'])[1]/following::span[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy9.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:789)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1150)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-20 12:20:32 - [TEST_CASE][FAILED] - Test Cases/Projet: Test Cases/Projet FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Creation_projet/Page_IAD (1)/span_Crer'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Projet.run(Projet:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589977073245.run(TempTestSuite1589977073245.groovy:37)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-9BRT4J2', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\nezha.e\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4e5dd3f6d7176f5760fb25f4724acf22
+*** Element info: {Using=xpath, value=(.//*[normalize-space(text()) and normalize-space(.)='Afficher'])[1]/following::span[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy9.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:789)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1150)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-20 12:20:32 - [TEST_STEP][PASSED] - click(findTestObject("CreationContact/Page_IAD/a_Myiad acqureurs")): Object: 'Object Repository/CreationContact/Page_IAD/a_Myiad acqureurs' is clicked on
+
+2020-05-20 12:20:34 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/a_Myiad acqureurs' is clicked on
+
+2020-05-20 12:20:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-20 12:20:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-20 12:20:37 - [TEST_STEP][FAILED] - click(findTestObject("Creation_projet/Page_IAD (1)/span_Crer")): Unable to click on object 'Object Repository/Creation_projet/Page_IAD (1)/span_Crer' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Creation_projet/Page_IAD (1)/span_Crer'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Projet.run(Projet:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589977073245.run(TempTestSuite1589977073245.groovy:37)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-9BRT4J2', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\nezha.e\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4e5dd3f6d7176f5760fb25f4724acf22
+*** Element info: {Using=xpath, value=(.//*[normalize-space(text()) and normalize-space(.)='Afficher'])[1]/following::span[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy9.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:789)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1150)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1589968538832.run(Script1589968538832.groovy:24)
+	... 13 more
+)
+
+2020-05-20 12:20:47 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2020-05-20 12:20:47 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Creation_projet/Page_IAD (1)/span_Crer' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Creation_projet/Page_IAD (1)/span_Crer'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Projet.run(Projet:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589977073245.run(TempTestSuite1589977073245.groovy:37)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-9BRT4J2', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\nezha.e\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4e5dd3f6d7176f5760fb25f4724acf22
+*** Element info: {Using=xpath, value=(.//*[normalize-space(text()) and normalize-space(.)='Afficher'])[1]/following::span[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy9.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:789)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1150)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1589968538832.run(Script1589968538832.groovy:24)
+	... 13 more
+)]]></system-out>
+         <system-err><![CDATA[2020-05-20 12:20:32 - [TEST_CASE][FAILED] - Test Cases/Projet: Test Cases/Projet FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Creation_projet/Page_IAD (1)/span_Crer'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Projet.run(Projet:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589977073245.run(TempTestSuite1589977073245.groovy:37)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-9BRT4J2', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\nezha.e\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4e5dd3f6d7176f5760fb25f4724acf22
+*** Element info: {Using=xpath, value=(.//*[normalize-space(text()) and normalize-space(.)='Afficher'])[1]/following::span[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy9.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:789)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1150)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-20 12:17:55 - [TEST_SUITE][FAILED] - Integration-IA-Contact: Test Cases/Contact FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '014092839' of object 'Object Repository/CreationContact/Page_IAD/input_Tlphone_phone4'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Contact.run(Contact:142)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589977073245.run(TempTestSuite1589977073245.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CreationContact/Page_IAD/input_Tlphone_phone4' located by 'By.xpath: //input[@id='phone4']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-05-20 12:17:55 - [TEST_SUITE][FAILED] - Integration-IA-Contact: Test Cases/Contact FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '014092839' of object 'Object Repository/CreationContact/Page_IAD/input_Tlphone_phone4'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Contact.run(Contact:142)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589977073245.run(TempTestSuite1589977073245.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CreationContact/Page_IAD/input_Tlphone_phone4' located by 'By.xpath: //input[@id='phone4']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

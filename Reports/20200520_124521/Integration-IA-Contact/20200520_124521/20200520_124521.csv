@@ -1,0 +1,103 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Integration-IA-Contact,Chrome 81.0.4044.138,,,2020-05-20 12:45:23,2020-05-20 12:49:39,"4m - 16,353s",PASSED
+,,,,,,,
+Test Cases/Contact,Chrome 81.0.4044.138,,,2020-05-20 12:45:23,2020-05-20 12:48:56,"3m - 32,588s",PASSED
+"openBrowser("""")",Chrome 81.0.4044.138,,,2020-05-20 12:45:24,2020-05-20 12:45:28,"4,707s",PASSED
+navigateToUrl(URL),Chrome 81.0.4044.138,,,2020-05-20 12:45:28,2020-05-20 12:45:33,"4,475s",PASSED
+"click(findTestObject(""Object Repository/CreationContact/Page_Welcome page/button_Accder""))",Chrome 81.0.4044.138,,,2020-05-20 12:45:33,2020-05-20 12:45:54,"21,013s",PASSED
+"setText(findTestObject(""Object Repository/CreationContact/Page_IAD/input_Identifiant_username""), usernameConseiller)",Chrome 81.0.4044.138,,,2020-05-20 12:45:54,2020-05-20 12:45:58,"4,740s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/CreationContact/Page_IAD/input_Mot de passe_password""), mp)",Chrome 81.0.4044.138,,,2020-05-20 12:45:58,2020-05-20 12:46:03,"4,414s",PASSED
+"click(findTestObject(""Object Repository/CreationContact/Page_IAD/input_Mot de passe_submit""))",Chrome 81.0.4044.138,,,2020-05-20 12:46:03,2020-05-20 12:46:28,"24,843s",PASSED
+"click(findTestObject(""Object Repository/CreationContact/Page_IAD/button_Dmarrer""))",Chrome 81.0.4044.138,,,2020-05-20 12:46:28,2020-05-20 12:46:30,"2,347s",PASSED
+"click(findTestObject(""Object Repository/CreationContact/Page_IAD/div_Quitter""))",Chrome 81.0.4044.138,,,2020-05-20 12:46:30,2020-05-20 12:46:33,"3,257s",PASSED
+"click(findTestObject(""Object Repository/CreationContact/Page_IAD/a_Production""))",Chrome 81.0.4044.138,,,2020-05-20 12:46:33,2020-05-20 12:46:36,"2,531s",PASSED
+"click(findTestObject(""Object Repository/CreationContact/Page_IAD/a_Myiad contacts""))",Chrome 81.0.4044.138,,,2020-05-20 12:46:36,2020-05-20 12:46:40,"3,706s",PASSED
+"click(findTestObject(""Object Repository/CreationContact/Page_IAD/button_Crer""))",Chrome 81.0.4044.138,,,2020-05-20 12:46:40,2020-05-20 12:46:47,"7,810s",PASSED
+"click(findTestObject(""Object Repository/CreationContact/Page_IAD/div_Nouveau contact_myiad-avatar""))",Chrome 81.0.4044.138,,,2020-05-20 12:46:47,2020-05-20 12:46:50,"2,571s",PASSED
+Seq5 = Math.random() * 9 - 6,Chrome 81.0.4044.138,,,2020-05-20 12:46:50,2020-05-20 12:46:50,"0,014s",PASSED
+seq55 = Seq5 * 100,Chrome 81.0.4044.138,,,2020-05-20 12:46:50,2020-05-20 12:46:50,"0,002s",PASSED
+jdcontact = seq55,Chrome 81.0.4044.138,,,2020-05-20 12:46:50,2020-05-20 12:46:50,"0,003s",PASSED
+jdcont = $jdcontact,Chrome 81.0.4044.138,,,2020-05-20 12:46:50,2020-05-20 12:46:50,"0,013s",PASSED
+"firstname = ""test"" + jdcont",Chrome 81.0.4044.138,,,2020-05-20 12:46:50,2020-05-20 12:46:50,"0,000s",PASSED
+println(firstname),Chrome 81.0.4044.138,,,2020-05-20 12:46:50,2020-05-20 12:46:50,"0,004s",PASSED
+"setText(findTestObject(""Object Repository/CreationContact/Page_IAD/input_Prnom_firstName""), firstname)",Chrome 81.0.4044.138,,,2020-05-20 12:46:50,2020-05-20 12:46:55,"4,772s",PASSED
+"lastname = ""test1"" + jdcont",Chrome 81.0.4044.138,,,2020-05-20 12:46:55,2020-05-20 12:46:55,"0,000s",PASSED
+println(lastname),Chrome 81.0.4044.138,,,2020-05-20 12:46:55,2020-05-20 12:46:55,"0,001s",PASSED
+"setText(findTestObject(""Object Repository/CreationContact/Page_IAD/input_Nom_lastName""), lastname)",Chrome 81.0.4044.138,,,2020-05-20 12:46:55,2020-05-20 12:47:00,"4,773s",PASSED
+"usedname = ""test3"" + jdcont",Chrome 81.0.4044.138,,,2020-05-20 12:47:00,2020-05-20 12:47:00,"0,001s",PASSED
+println(usedname),Chrome 81.0.4044.138,,,2020-05-20 12:47:00,2020-05-20 12:47:00,"0,001s",PASSED
+"setText(findTestObject(""Object Repository/CreationContact/Page_IAD/input_concat(Nom d  usage)_usageName""), usedname)",Chrome 81.0.4044.138,,,2020-05-20 12:47:00,2020-05-20 12:47:05,"4,969s",PASSED
+"jeunefille = ""test4"" + jdcont",Chrome 81.0.4044.138,,,2020-05-20 12:47:05,2020-05-20 12:47:05,"0,000s",PASSED
+println(jeunefille),Chrome 81.0.4044.138,,,2020-05-20 12:47:05,2020-05-20 12:47:05,"0,000s",PASSED
+"setText(findTestObject(""Object Repository/CreationContact/Page_IAD/input_Nom de jeune fille_birthName""), jeunefille)",Chrome 81.0.4044.138,,,2020-05-20 12:47:05,2020-05-20 12:47:09,"4,965s",PASSED
+"click(findTestObject(""Object Repository/CreationContact/Page_IAD/input_Date de naissance_birthDate""))",Chrome 81.0.4044.138,,,2020-05-20 12:47:09,2020-05-20 12:47:12,"2,740s",PASSED
+"click(findTestObject(""Object Repository/CreationContact/Page_IAD/span_13""))",Chrome 81.0.4044.138,,,2020-05-20 12:47:12,2020-05-20 12:47:15,"2,664s",PASSED
+"datebirth = getAttribute(findTestObject(""CreationContact/Page_IAD/input_Date de naissance_birthDate""), ""value"")",Chrome 81.0.4044.138,,,2020-05-20 12:47:15,2020-05-20 12:47:15,"0,592s",PASSED
+DateNaissance = datebirth,Chrome 81.0.4044.138,,,2020-05-20 12:47:15,2020-05-20 12:47:15,"0,000s",PASSED
+println(DateNaissance),Chrome 81.0.4044.138,,,2020-05-20 12:47:15,2020-05-20 12:47:15,"0,000s",PASSED
+"click(findTestObject(""Object Repository/CreationContact/Page_IAD/span_Lieu de naissance_btn btn-default form_bf2c5d""))",Chrome 81.0.4044.138,,,2020-05-20 12:47:15,2020-05-20 12:47:18,"2,445s",PASSED
+"click(findTestObject(""Object Repository/CreationContact/Page_IAD/span_02""))",Chrome 81.0.4044.138,,,2020-05-20 12:47:18,2020-05-20 12:47:21,"2,899s",PASSED
+"lieuBirth = ""test5"" + jdcont",Chrome 81.0.4044.138,,,2020-05-20 12:47:21,2020-05-20 12:47:21,"0,000s",PASSED
+println(lieuBirth),Chrome 81.0.4044.138,,,2020-05-20 12:47:21,2020-05-20 12:47:21,"0,000s",PASSED
+"setText(findTestObject(""Object Repository/CreationContact/Page_IAD/input_Lieu de naissance_birthPlace""), lieuBirth)",Chrome 81.0.4044.138,,,2020-05-20 12:47:21,2020-05-20 12:47:26,"5,052s",PASSED
+"click(findTestObject(""Object Repository/CreationContact/Page_IAD/span_Choisir""))",Chrome 81.0.4044.138,,,2020-05-20 12:47:26,2020-05-20 12:47:29,"2,953s",PASSED
+"setText(findTestObject(""Object Repository/CreationContact/Page_IAD/input_Choisir_form-control ui-select-search_780576""), ""France"")",Chrome 81.0.4044.138,,,2020-05-20 12:47:29,2020-05-20 12:47:35,"6,172s",PASSED
+"pays1 = getText(findTestObject(""CreationContact/Page_IAD/span_FRANCE""))",Chrome 81.0.4044.138,,,2020-05-20 12:47:35,2020-05-20 12:47:36,"0,510s",PASSED
+"click(findTestObject(""CreationContact/Page_IAD/span_FRANCE""))",Chrome 81.0.4044.138,,,2020-05-20 12:47:36,2020-05-20 12:47:38,"2,373s",PASSED
+pays = pays1,Chrome 81.0.4044.138,,,2020-05-20 12:47:38,2020-05-20 12:47:38,"0,000s",PASSED
+println(pays),Chrome 81.0.4044.138,,,2020-05-20 12:47:38,2020-05-20 12:47:38,"0,001s",PASSED
+"profession = ""test8"" + jdcont",Chrome 81.0.4044.138,,,2020-05-20 12:47:38,2020-05-20 12:47:38,"0,000s",PASSED
+"setText(findTestObject(""Object Repository/CreationContact/Page_IAD/input_Profession_job""), profession)",Chrome 81.0.4044.138,,,2020-05-20 12:47:38,2020-05-20 12:47:43,"5,069s",PASSED
+"click(findTestObject(""Object Repository/CreationContact/Page_IAD/span_Contact  Adresse""))",Chrome 81.0.4044.138,,,2020-05-20 12:47:43,2020-05-20 12:47:45,"2,455s",PASSED
+Seqphone = Math.random() * 9 - 6,Chrome 81.0.4044.138,,,2020-05-20 12:47:45,2020-05-20 12:47:45,"0,001s",PASSED
+ifseq = Seqphone,Chrome 81.0.4044.138,,,2020-05-20 12:47:45,2020-05-20 12:47:45,"0,001s",PASSED
+if (ifseq == 0),Chrome 81.0.4044.138,,,2020-05-20 12:47:45,2020-05-20 12:47:45,"0,000s",PASSED
+else,Chrome 81.0.4044.138,,,2020-05-20 12:47:45,2020-05-20 12:47:45,"0,001s",PASSED
+phone = phoneseq1,Chrome 81.0.4044.138,,,2020-05-20 12:47:45,2020-05-20 12:47:45,"0,000s",PASSED
+println(phone),Chrome 81.0.4044.138,,,2020-05-20 12:47:45,2020-05-20 12:47:45,"0,001s",PASSED
+"phone1 = ""06"" + phone",Chrome 81.0.4044.138,,,2020-05-20 12:47:45,2020-05-20 12:47:45,"0,000s",PASSED
+println(phone1),Chrome 81.0.4044.138,,,2020-05-20 12:47:45,2020-05-20 12:47:45,"0,001s",PASSED
+"setText(findTestObject(""Object Repository/CreationContact/Page_IAD/input_Tlphone_phone2""), phone1)",Chrome 81.0.4044.138,,,2020-05-20 12:47:45,2020-05-20 12:47:51,"5,198s",PASSED
+"click(findTestObject(""Object Repository/CreationContact/Page_IAD/span_Ajouter un tlphone_fa fa-plus""))",Chrome 81.0.4044.138,,,2020-05-20 12:47:51,2020-05-20 12:47:53,"2,638s",PASSED
+"phone2 = ""01"" + phone",Chrome 81.0.4044.138,,,2020-05-20 12:47:53,2020-05-20 12:47:53,"0,001s",PASSED
+println(phone2),Chrome 81.0.4044.138,,,2020-05-20 12:47:53,2020-05-20 12:47:53,"0,000s",PASSED
+"setText(findTestObject(""Object Repository/CreationContact/Page_IAD/input_Tlphone_phone4""), phone2)",Chrome 81.0.4044.138,,,2020-05-20 12:47:53,2020-05-20 12:47:58,"4,974s",PASSED
+"email1 = ""test6."" + phone + ""@gmail.com""",Chrome 81.0.4044.138,,,2020-05-20 12:47:58,2020-05-20 12:47:58,"0,000s",PASSED
+println(email1),Chrome 81.0.4044.138,,,2020-05-20 12:47:58,2020-05-20 12:47:58,"0,000s",PASSED
+"setText(findTestObject(""Object Repository/CreationContact/Page_IAD/input_E-mail personnel_emailPersonal-3""), email1)",Chrome 81.0.4044.138,,,2020-05-20 12:47:58,2020-05-20 12:48:04,"5,402s",PASSED
+"click(findTestObject(""CreationContact/Page_IAD/button_Ajouter un email_btn btn-primary btn-add""))",Chrome 81.0.4044.138,,,2020-05-20 12:48:04,2020-05-20 12:48:06,"2,560s",PASSED
+"email2 = ""test7."" + phone + ""@gmail.com""",Chrome 81.0.4044.138,,,2020-05-20 12:48:06,2020-05-20 12:48:06,"0,001s",PASSED
+println(email2),Chrome 81.0.4044.138,,,2020-05-20 12:48:06,2020-05-20 12:48:06,"0,001s",PASSED
+"setText(findTestObject(""Object Repository/CreationContact/Page_IAD/input_E-mail personnel_emailPersonal-5""), email2)",Chrome 81.0.4044.138,,,2020-05-20 12:48:06,2020-05-20 12:48:12,"5,314s",PASSED
+"click(findTestObject(""CreationContact/Page_Welcome page/Page_IAD/span_FRANCE""))",Chrome 81.0.4044.138,,,2020-05-20 12:48:12,2020-05-20 12:48:14,"2,873s",PASSED
+"setText(findTestObject(""CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae""), ""France"")",Chrome 81.0.4044.138,,,2020-05-20 12:48:14,2020-05-20 12:48:20,"5,775s",PASSED
+delay(1),Chrome 81.0.4044.138,,,2020-05-20 12:48:20,2020-05-20 12:48:21,"1,018s",PASSED
+"sendKeys(findTestObject(""CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae""), Keys.chord(ARROW_DOWN))",Chrome 81.0.4044.138,,,2020-05-20 12:48:21,2020-05-20 12:48:23,"2,308s",PASSED
+"sendKeys(findTestObject(""CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae""), Keys.chord(INSERT))",Chrome 81.0.4044.138,,,2020-05-20 12:48:23,2020-05-20 12:48:26,"2,289s",PASSED
+delay(4),Chrome 81.0.4044.138,,,2020-05-20 12:48:26,2020-05-20 12:48:30,"4,002s",PASSED
+"setText(findTestObject(""Object Repository/CreationContact/Page_IAD/input_Adresse_address1""), ""a"")",Chrome 81.0.4044.138,,,2020-05-20 12:48:30,2020-05-20 12:48:34,"4,618s",PASSED
+delay(1),Chrome 81.0.4044.138,,,2020-05-20 12:48:34,2020-05-20 12:48:35,"1,001s",PASSED
+"sendKeys(findTestObject(""CreationContact/Page_IAD/input_Adresse_address1""), Keys.chord(ARROW_DOWN))",Chrome 81.0.4044.138,,,2020-05-20 12:48:35,2020-05-20 12:48:38,"2,292s",PASSED
+"sendKeys(findTestObject(""CreationContact/Page_IAD/input_Adresse_address1""), Keys.chord(INSERT))",Chrome 81.0.4044.138,,,2020-05-20 12:48:38,2020-05-20 12:48:40,"2,295s",PASSED
+delay(5),Chrome 81.0.4044.138,,,2020-05-20 12:48:40,2020-05-20 12:48:45,"5,002s",PASSED
+"adressContac = getAttribute(findTestObject(""Object Repository/CreationContact/Page_IAD/input_Adresse_address1""), ""value"")",Chrome 81.0.4044.138,,,2020-05-20 12:48:45,2020-05-20 12:48:45,"0,280s",PASSED
+adressContact = adressContac,Chrome 81.0.4044.138,,,2020-05-20 12:48:45,2020-05-20 12:48:45,"0,000s",PASSED
+println(adressContact),Chrome 81.0.4044.138,,,2020-05-20 12:48:45,2020-05-20 12:48:45,"0,000s",PASSED
+"click(findTestObject(""CreationContact/Page_IAD/span_Enregistrer le contact""))",Chrome 81.0.4044.138,,,2020-05-20 12:48:45,2020-05-20 12:48:48,"2,417s",PASSED
+delay(8),Chrome 81.0.4044.138,,,2020-05-20 12:48:48,2020-05-20 12:48:56,"8,002s",PASSED
+,,,,,,,
+Test Cases/Projet,Chrome 81.0.4044.138,,,2020-05-20 12:48:56,2020-05-20 12:49:39,"43,532s",PASSED
+"click(findTestObject(""CreationContact/Page_IAD/a_Myiad acqureurs""))",Chrome 81.0.4044.138,,,2020-05-20 12:48:56,2020-05-20 12:48:58,"2,469s",PASSED
+delay(3),Chrome 81.0.4044.138,,,2020-05-20 12:48:58,2020-05-20 12:49:01,"3,002s",PASSED
+"click(findTestObject(""Creation_projet/Page_IAD (1)/span_Crer""))",Chrome 81.0.4044.138,,,2020-05-20 12:49:01,2020-05-20 12:49:04,"2,394s",PASSED
+"click(findTestObject(""Creation_projet/Page_IAD (1)/button_Achat""))",Chrome 81.0.4044.138,,,2020-05-20 12:49:04,2020-05-20 12:49:07,"3,614s",PASSED
+"click(findTestObject(""Creation_projet/Page_IAD (1)/button_Habitation""))",Chrome 81.0.4044.138,,,2020-05-20 12:49:07,2020-05-20 12:49:10,"2,540s",PASSED
+"click(findTestObject(""Creation_projet/Page_IAD (1)/button_Traditionnel""))",Chrome 81.0.4044.138,,,2020-05-20 12:49:10,2020-05-20 12:49:12,"2,545s",PASSED
+"click(findTestObject(""Creation_projet/Page_IAD (1)/button_Maison""))",Chrome 81.0.4044.138,,,2020-05-20 12:49:12,2020-05-20 12:49:15,"3,049s",PASSED
+"setText(findTestObject(""Creation_projet/Page_Welcome page/Page_IAD/input_Lier  un contact_search""), firstname)",Chrome 81.0.4044.138,,,2020-05-20 12:49:15,2020-05-20 12:49:20,"4,848s",PASSED
+delay(2),Chrome 81.0.4044.138,,,2020-05-20 12:49:20,2020-05-20 12:49:22,"2,001s",PASSED
+"click(findTestObject(""Creation_projet/Page_Welcome page/Page_IAD/a_Chabanne AFGOUN DAMMARIE-LES-LYS""))",Chrome 81.0.4044.138,,,2020-05-20 12:49:22,2020-05-20 12:49:25,"2,432s",PASSED
+delay(6),Chrome 81.0.4044.138,,,2020-05-20 12:49:25,2020-05-20 12:49:31,"6,002s",PASSED
+"click(findTestObject(""Creation_projet/Page_IAD (1)/span_tape suivante""))",Chrome 81.0.4044.138,,,2020-05-20 12:49:31,2020-05-20 12:49:33,"2,356s",PASSED
+"click(findTestObject(""Creation_projet/Page_IAD (1)/button_Enregistrer et quitter""))",Chrome 81.0.4044.138,,,2020-05-20 12:49:33,2020-05-20 12:49:36,"2,530s",PASSED
+"verifyElementPresent(findTestObject(""Creation_projet/Page_IAD/div_Projet cr avec succs""), 0)",Chrome 81.0.4044.138,,,2020-05-20 12:49:36,2020-05-20 12:49:39,"3,572s",PASSED

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select__address1</name>
+   <tag></tag>
+   <elementGuidId>d20d6b63-629e-44b4-bd36-be7e28cb04a9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/maps/api/place/js/PlaceService.GetPlaceDetails?2sfr-FR&amp;10e3&amp;14m1&amp;1sChIJB528OYfrtRIRNnsd-m6bQuY&amp;15s711C5EA5-D1D1-48FD-9DC3-DBE0293F811394k694mefxox&amp;17m1&amp;2e1&amp;callback=_xdc_._ppby8u&amp;key=AIzaSyAYCbn17RqoFl6DLVGF0HQK_4cJGgCvFrU&amp;token=92721[count(. | //*[@pac-item-selected = 'Arc de Triomphe, Place Charles de Gaulle, Paris, France' and @method = 'GET']) = count(//*[@pac-item-selected = 'Arc de Triomphe, Place Charles de Gaulle, Paris, France' and @method = 'GET'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>pac-item-selected</name>
+      <type>Main</type>
+      <value>Arc de Triomphe, Place Charles de Gaulle, Paris, France</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/maps/api/place/js/PlaceService.GetPlaceDetails?2sfr-FR&amp;10e3&amp;14m1&amp;1sChIJB528OYfrtRIRNnsd-m6bQuY&amp;15s711C5EA5-D1D1-48FD-9DC3-DBE0293F811394k694mefxox&amp;17m1&amp;2e1&amp;callback=_xdc_._ppby8u&amp;key=AIzaSyAYCbn17RqoFl6DLVGF0HQK_4cJGgCvFrU&amp;token=92721</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>method</name>
+      <type>Main</type>
+      <value>GET</value>
+   </webElementProperties>
+</WebElementEntity>

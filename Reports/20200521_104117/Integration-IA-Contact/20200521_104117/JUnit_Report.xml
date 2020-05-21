@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Integration-IA-Contact" time="384.144" tests="3" failures="1" errors="0">
+   <testsuite name="Integration-IA-Contact" tests="3" failures="1" errors="0" time="384.144" timestamp="2020-05-21 10:41:19" hostname="nezha.e - DESKTOP-9BRT4J2" id="Test Suites/Integration-IA-Contact">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\nezha.e\\Desktop\\Katalon\\Reports\\20200521_104117\\Integration-IA-Contact\\20200521_104117"/>
+         <property name="logFiles" value="C:\\Users\\nezha.e\\Desktop\\Katalon\\Reports\\20200521_104117\\Integration-IA-Contact\\20200521_104117\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nezha.e - DESKTOP-9BRT4J2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.4.0.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="192.168.0.107"/>
+         <property name="sessionId" value="3a05e62d7fc61a3db1a4607afbd396e6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Contact" time="176.768" classname="Test Cases/Contact" status="PASSED">
+         <system-out><![CDATA[2020-05-21 10:41:19 - [TEST_CASE][PASSED] - Test Cases/Contact: Test Cases/Contact
+
+2020-05-21 10:41:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-21 10:41:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-21 10:41:20 - [MESSAGE][INFO] - Action delay is set to 2 000 milliseconds
+
+2020-05-21 10:41:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-21 10:41:24 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'http://p13.demo.iadholding.com' successfully
+
+2020-05-21 10:41:27 - [MESSAGE][PASSED] - Navigate to 'http://p13.demo.iadholding.com' successfully
+
+2020-05-21 10:41:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_Welcome page/button_Accder")): Object: 'Object Repository/CreationContact/Page_Welcome page/button_Accder' is clicked on
+
+2020-05-21 10:41:31 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_Welcome page/button_Accder' is clicked on
+
+2020-05-21 10:41:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Identifiant_username"), usernameConseiller): Text '293@iadfrance.fr' is set on object 'Object Repository/CreationContact/Page_IAD/input_Identifiant_username'
+
+2020-05-21 10:41:36 - [MESSAGE][PASSED] - Text '293@iadfrance.fr' is set on object 'Object Repository/CreationContact/Page_IAD/input_Identifiant_username'
+
+2020-05-21 10:41:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Mot de passe_password"), mp): Text ****** has been set on object 'Object Repository/CreationContact/Page_IAD/input_Mot de passe_password'
+
+2020-05-21 10:41:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/CreationContact/Page_IAD/input_Mot de passe_password'
+
+2020-05-21 10:41:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/input_Mot de passe_submit")): Object: 'Object Repository/CreationContact/Page_IAD/input_Mot de passe_submit' is clicked on
+
+2020-05-21 10:41:46 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/input_Mot de passe_submit' is clicked on
+
+2020-05-21 10:41:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/button_Dmarrer")): Object: 'Object Repository/CreationContact/Page_IAD/button_Dmarrer' is clicked on
+
+2020-05-21 10:41:49 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/button_Dmarrer' is clicked on
+
+2020-05-21 10:41:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/div_Quitter")): Object: 'Object Repository/CreationContact/Page_IAD/div_Quitter' is clicked on
+
+2020-05-21 10:41:53 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/div_Quitter' is clicked on
+
+2020-05-21 10:41:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/a_Production")): Object: 'Object Repository/CreationContact/Page_IAD/a_Production' is clicked on
+
+2020-05-21 10:41:55 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/a_Production' is clicked on
+
+2020-05-21 10:41:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/a_Myiad contacts")): Object: 'Object Repository/CreationContact/Page_IAD/a_Myiad contacts' is clicked on
+
+2020-05-21 10:41:59 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/a_Myiad contacts' is clicked on
+
+2020-05-21 10:41:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/button_Crer")): Object: 'Object Repository/CreationContact/Page_IAD/button_Crer' is clicked on
+
+2020-05-21 10:42:07 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/button_Crer' is clicked on
+
+2020-05-21 10:42:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/div_Nouveau contact_myiad-avatar")): Object: 'Object Repository/CreationContact/Page_IAD/div_Nouveau contact_myiad-avatar' is clicked on
+
+2020-05-21 10:42:10 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/div_Nouveau contact_myiad-avatar' is clicked on
+
+2020-05-21 10:42:10 - [TEST_STEP][PASSED] - Seq5 = Math.random() * 9 - 6: null
+
+2020-05-21 10:42:10 - [TEST_STEP][PASSED] - seq55 = Seq5 * 100: null
+
+2020-05-21 10:42:10 - [TEST_STEP][PASSED] - jdcontact = seq55: null
+
+2020-05-21 10:42:10 - [TEST_STEP][PASSED] - jdcont = $jdcontact: null
+
+2020-05-21 10:42:10 - [TEST_STEP][PASSED] - firstname = "test" + jdcont: null
+
+2020-05-21 10:42:10 - [TEST_STEP][PASSED] - println(firstname): null
+
+2020-05-21 10:42:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Prnom_firstName"), firstname): Text 'test263' is set on object 'Object Repository/CreationContact/Page_IAD/input_Prnom_firstName'
+
+2020-05-21 10:42:15 - [MESSAGE][PASSED] - Text 'test263' is set on object 'Object Repository/CreationContact/Page_IAD/input_Prnom_firstName'
+
+2020-05-21 10:42:15 - [TEST_STEP][PASSED] - lastname = "test1" + jdcont: null
+
+2020-05-21 10:42:15 - [TEST_STEP][PASSED] - println(lastname): null
+
+2020-05-21 10:42:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Nom_lastName"), lastname): Text 'test1263' is set on object 'Object Repository/CreationContact/Page_IAD/input_Nom_lastName'
+
+2020-05-21 10:42:20 - [MESSAGE][PASSED] - Text 'test1263' is set on object 'Object Repository/CreationContact/Page_IAD/input_Nom_lastName'
+
+2020-05-21 10:42:20 - [TEST_STEP][PASSED] - usedname = "test3" + jdcont: null
+
+2020-05-21 10:42:20 - [TEST_STEP][PASSED] - println(usedname): null
+
+2020-05-21 10:42:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_concat(Nom d  usage)_usageName"), usedname): Text 'test3263' is set on object 'Object Repository/CreationContact/Page_IAD/input_concat(Nom d  usage)_usageName'
+
+2020-05-21 10:42:25 - [MESSAGE][PASSED] - Text 'test3263' is set on object 'Object Repository/CreationContact/Page_IAD/input_concat(Nom d  usage)_usageName'
+
+2020-05-21 10:42:25 - [TEST_STEP][PASSED] - jeunefille = "test4" + jdcont: null
+
+2020-05-21 10:42:25 - [TEST_STEP][PASSED] - println(jeunefille): null
+
+2020-05-21 10:42:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Nom de jeune fille_birthName"), jeunefille): Text 'test4263' is set on object 'Object Repository/CreationContact/Page_IAD/input_Nom de jeune fille_birthName'
+
+2020-05-21 10:42:29 - [MESSAGE][PASSED] - Text 'test4263' is set on object 'Object Repository/CreationContact/Page_IAD/input_Nom de jeune fille_birthName'
+
+2020-05-21 10:42:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/input_Date de naissance_birthDate")): Object: 'Object Repository/CreationContact/Page_IAD/input_Date de naissance_birthDate' is clicked on
+
+2020-05-21 10:42:32 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/input_Date de naissance_birthDate' is clicked on
+
+2020-05-21 10:42:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/span_13")): Object: 'Object Repository/CreationContact/Page_IAD/span_13' is clicked on
+
+2020-05-21 10:42:35 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_13' is clicked on
+
+2020-05-21 10:42:35 - [TEST_STEP][PASSED] - datebirth = getAttribute(findTestObject("CreationContact/Page_IAD/input_Date de naissance_birthDate"), "value"): Attribute 'value' of object 'Object Repository/CreationContact/Page_IAD/input_Date de naissance_birthDate' is: '13/05/2020'
+
+2020-05-21 10:42:35 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/CreationContact/Page_IAD/input_Date de naissance_birthDate' is: '13/05/2020'
+
+2020-05-21 10:42:35 - [TEST_STEP][PASSED] - DateNaissance = datebirth: null
+
+2020-05-21 10:42:35 - [TEST_STEP][PASSED] - println(DateNaissance): null
+
+2020-05-21 10:42:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/span_Lieu de naissance_btn btn-default form_bf2c5d")): Object: 'Object Repository/CreationContact/Page_IAD/span_Lieu de naissance_btn btn-default form_bf2c5d' is clicked on
+
+2020-05-21 10:42:38 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_Lieu de naissance_btn btn-default form_bf2c5d' is clicked on
+
+2020-05-21 10:42:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/span_02")): Object: 'Object Repository/CreationContact/Page_IAD/span_02' is clicked on
+
+2020-05-21 10:42:41 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_02' is clicked on
+
+2020-05-21 10:42:41 - [TEST_STEP][PASSED] - lieuBirth = "test5" + jdcont: null
+
+2020-05-21 10:42:41 - [TEST_STEP][PASSED] - println(lieuBirth): null
+
+2020-05-21 10:42:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Lieu de naissance_birthPlace"), lieuBirth): Text 'test5263' is set on object 'Object Repository/CreationContact/Page_IAD/input_Lieu de naissance_birthPlace'
+
+2020-05-21 10:42:46 - [MESSAGE][PASSED] - Text 'test5263' is set on object 'Object Repository/CreationContact/Page_IAD/input_Lieu de naissance_birthPlace'
+
+2020-05-21 10:42:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/span_Choisir")): Object: 'Object Repository/CreationContact/Page_IAD/span_Choisir' is clicked on
+
+2020-05-21 10:42:49 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_Choisir' is clicked on
+
+2020-05-21 10:42:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Choisir_form-control ui-select-search_780576"), "France"): Text 'France' is set on object 'Object Repository/CreationContact/Page_IAD/input_Choisir_form-control ui-select-search_780576'
+
+2020-05-21 10:42:55 - [MESSAGE][PASSED] - Text 'France' is set on object 'Object Repository/CreationContact/Page_IAD/input_Choisir_form-control ui-select-search_780576'
+
+2020-05-21 10:42:55 - [TEST_STEP][PASSED] - pays1 = getText(findTestObject("CreationContact/Page_IAD/span_FRANCE")): Text of object 'Object Repository/CreationContact/Page_IAD/span_FRANCE' is: 'FRANCE'
+
+2020-05-21 10:42:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/CreationContact/Page_IAD/span_FRANCE' is: 'FRANCE'
+
+2020-05-21 10:42:55 - [TEST_STEP][PASSED] - click(findTestObject("CreationContact/Page_IAD/span_FRANCE")): Object: 'Object Repository/CreationContact/Page_IAD/span_FRANCE' is clicked on
+
+2020-05-21 10:42:58 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_FRANCE' is clicked on
+
+2020-05-21 10:42:58 - [TEST_STEP][PASSED] - pays = pays1: null
+
+2020-05-21 10:42:58 - [TEST_STEP][PASSED] - println(pays): null
+
+2020-05-21 10:42:58 - [TEST_STEP][PASSED] - profession = "test8" + jdcont: null
+
+2020-05-21 10:42:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Profession_job"), profession): Text 'test8263' is set on object 'Object Repository/CreationContact/Page_IAD/input_Profession_job'
+
+2020-05-21 10:43:03 - [MESSAGE][PASSED] - Text 'test8263' is set on object 'Object Repository/CreationContact/Page_IAD/input_Profession_job'
+
+2020-05-21 10:43:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/span_Contact  Adresse")): Object: 'Object Repository/CreationContact/Page_IAD/span_Contact  Adresse' is clicked on
+
+2020-05-21 10:43:05 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_Contact  Adresse' is clicked on
+
+2020-05-21 10:43:05 - [TEST_STEP][PASSED] - Seqphone = Math.random() * 9 - 6: null
+
+2020-05-21 10:43:05 - [TEST_STEP][PASSED] - ifseq = Seqphone: null
+
+2020-05-21 10:43:05 - [TEST_STEP][PASSED] - if (ifseq == 0): null
+
+2020-05-21 10:43:05 - [TEST_STEP][PASSED] - else: null
+
+2020-05-21 10:43:05 - [TEST_STEP][PASSED] - phoneseq1 = Seqphone * 10000000: null
+
+2020-05-21 10:43:05 - [TEST_STEP][PASSED] - phone = phoneseq1: null
+
+2020-05-21 10:43:05 - [TEST_STEP][PASSED] - println(phone): null
+
+2020-05-21 10:43:05 - [TEST_STEP][PASSED] - phone1 = "06" + phone: null
+
+2020-05-21 10:43:05 - [TEST_STEP][PASSED] - println(phone1): null
+
+2020-05-21 10:43:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Tlphone_phone2"), phone1): Text '0613769533' is set on object 'Object Repository/CreationContact/Page_IAD/input_Tlphone_phone2'
+
+2020-05-21 10:43:11 - [MESSAGE][PASSED] - Text '0613769533' is set on object 'Object Repository/CreationContact/Page_IAD/input_Tlphone_phone2'
+
+2020-05-21 10:43:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/span_Ajouter un tlphone_fa fa-plus")): Object: 'Object Repository/CreationContact/Page_IAD/span_Ajouter un tlphone_fa fa-plus' is clicked on
+
+2020-05-21 10:43:13 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_Ajouter un tlphone_fa fa-plus' is clicked on
+
+2020-05-21 10:43:13 - [TEST_STEP][PASSED] - phone2 = "01" + phone: null
+
+2020-05-21 10:43:13 - [TEST_STEP][PASSED] - println(phone2): null
+
+2020-05-21 10:43:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Tlphone_phone4"), phone2): Text '0113769533' is set on object 'Object Repository/CreationContact/Page_IAD/input_Tlphone_phone4'
+
+2020-05-21 10:43:19 - [MESSAGE][PASSED] - Text '0113769533' is set on object 'Object Repository/CreationContact/Page_IAD/input_Tlphone_phone4'
+
+2020-05-21 10:43:19 - [TEST_STEP][PASSED] - email1 = "test6." + phone + "@gmail.com": null
+
+2020-05-21 10:43:19 - [TEST_STEP][PASSED] - println(email1): null
+
+2020-05-21 10:43:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_E-mail personnel_emailPersonal-3"), email1): Text 'test6.13769533@gmail.com' is set on object 'Object Repository/CreationContact/Page_IAD/input_E-mail personnel_emailPersonal-3'
+
+2020-05-21 10:43:24 - [MESSAGE][PASSED] - Text 'test6.13769533@gmail.com' is set on object 'Object Repository/CreationContact/Page_IAD/input_E-mail personnel_emailPersonal-3'
+
+2020-05-21 10:43:24 - [TEST_STEP][PASSED] - click(findTestObject("CreationContact/Page_IAD/button_Ajouter un email_btn btn-primary btn-add")): Object: 'Object Repository/CreationContact/Page_IAD/button_Ajouter un email_btn btn-primary btn-add' is clicked on
+
+2020-05-21 10:43:26 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/button_Ajouter un email_btn btn-primary btn-add' is clicked on
+
+2020-05-21 10:43:26 - [TEST_STEP][PASSED] - email2 = "test7." + phone + "@gmail.com": null
+
+2020-05-21 10:43:26 - [TEST_STEP][PASSED] - println(email2): null
+
+2020-05-21 10:43:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_E-mail personnel_emailPersonal-5"), email2): Text 'test7.13769533@gmail.com' is set on object 'Object Repository/CreationContact/Page_IAD/input_E-mail personnel_emailPersonal-5'
+
+2020-05-21 10:43:32 - [MESSAGE][PASSED] - Text 'test7.13769533@gmail.com' is set on object 'Object Repository/CreationContact/Page_IAD/input_E-mail personnel_emailPersonal-5'
+
+2020-05-21 10:43:32 - [TEST_STEP][PASSED] - click(findTestObject("CreationContact/Page_Welcome page/Page_IAD/span_FRANCE")): Object: 'Object Repository/CreationContact/Page_Welcome page/Page_IAD/span_FRANCE' is clicked on
+
+2020-05-21 10:43:35 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_Welcome page/Page_IAD/span_FRANCE' is clicked on
+
+2020-05-21 10:43:35 - [TEST_STEP][PASSED] - setText(findTestObject("CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae"), "France"): Text 'France' is set on object 'Object Repository/CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae'
+
+2020-05-21 10:43:40 - [MESSAGE][PASSED] - Text 'France' is set on object 'Object Repository/CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae'
+
+2020-05-21 10:43:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-05-21 10:43:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-05-21 10:43:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae'
+
+2020-05-21 10:43:44 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae'
+
+2020-05-21 10:43:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae"), Keys.chord(INSERT)): Keys 'INSERT + ' sent to object: 'Object Repository/CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae'
+
+2020-05-21 10:43:46 - [MESSAGE][PASSED] - Keys 'INSERT + ' sent to object: 'Object Repository/CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae'
+
+2020-05-21 10:43:46 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-05-21 10:43:50 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-05-21 10:43:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Adresse_address1"), "a"): Text 'a' is set on object 'Object Repository/CreationContact/Page_IAD/input_Adresse_address1'
+
+2020-05-21 10:43:55 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/CreationContact/Page_IAD/input_Adresse_address1'
+
+2020-05-21 10:43:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-05-21 10:43:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-05-21 10:43:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("CreationContact/Page_IAD/input_Adresse_address1"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/CreationContact/Page_IAD/input_Adresse_address1'
+
+2020-05-21 10:43:58 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/CreationContact/Page_IAD/input_Adresse_address1'
+
+2020-05-21 10:43:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("CreationContact/Page_IAD/input_Adresse_address1"), Keys.chord(INSERT)): Keys 'INSERT + ' sent to object: 'Object Repository/CreationContact/Page_IAD/input_Adresse_address1'
+
+2020-05-21 10:44:00 - [MESSAGE][PASSED] - Keys 'INSERT + ' sent to object: 'Object Repository/CreationContact/Page_IAD/input_Adresse_address1'
+
+2020-05-21 10:44:00 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-21 10:44:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-21 10:44:05 - [TEST_STEP][PASSED] - adressContac = getAttribute(findTestObject("Object Repository/CreationContact/Page_IAD/input_Adresse_address1"), "value"): Attribute 'value' of object 'Object Repository/CreationContact/Page_IAD/input_Adresse_address1' is: 'Angers, France'
+
+2020-05-21 10:44:06 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/CreationContact/Page_IAD/input_Adresse_address1' is: 'Angers, France'
+
+2020-05-21 10:44:06 - [TEST_STEP][PASSED] - adressContact = adressContac: null
+
+2020-05-21 10:44:06 - [TEST_STEP][PASSED] - println(adressContact): null
+
+2020-05-21 10:44:06 - [TEST_STEP][PASSED] - click(findTestObject("CreationContact/Page_IAD/span_Enregistrer le contact")): Object: 'Object Repository/CreationContact/Page_IAD/span_Enregistrer le contact' is clicked on
+
+2020-05-21 10:44:08 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_Enregistrer le contact' is clicked on
+
+2020-05-21 10:44:08 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2020-05-21 10:44:16 - [MESSAGE][PASSED] - Delayed 8 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Projet" time="43.606" classname="Test Cases/Projet" status="PASSED">
+         <system-out><![CDATA[2020-05-21 10:44:16 - [TEST_CASE][PASSED] - Test Cases/Projet: Test Cases/Projet
+
+2020-05-21 10:44:16 - [TEST_STEP][PASSED] - click(findTestObject("CreationContact/Page_IAD/a_Myiad acqureurs")): Object: 'Object Repository/CreationContact/Page_IAD/a_Myiad acqureurs' is clicked on
+
+2020-05-21 10:44:19 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/a_Myiad acqureurs' is clicked on
+
+2020-05-21 10:44:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-21 10:44:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-21 10:44:22 - [TEST_STEP][PASSED] - click(findTestObject("Creation_projet/Page_IAD (1)/span_Crer")): Object: 'Object Repository/Creation_projet/Page_IAD (1)/span_Crer' is clicked on
+
+2020-05-21 10:44:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation_projet/Page_IAD (1)/span_Crer' is clicked on
+
+2020-05-21 10:44:24 - [TEST_STEP][PASSED] - click(findTestObject("Creation_projet/Page_IAD (1)/button_Achat")): Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Achat' is clicked on
+
+2020-05-21 10:44:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Achat' is clicked on
+
+2020-05-21 10:44:28 - [TEST_STEP][PASSED] - click(findTestObject("Creation_projet/Page_IAD (1)/button_Habitation")): Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Habitation' is clicked on
+
+2020-05-21 10:44:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Habitation' is clicked on
+
+2020-05-21 10:44:30 - [TEST_STEP][PASSED] - click(findTestObject("Creation_projet/Page_IAD (1)/button_Traditionnel")): Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Traditionnel' is clicked on
+
+2020-05-21 10:44:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Traditionnel' is clicked on
+
+2020-05-21 10:44:33 - [TEST_STEP][PASSED] - click(findTestObject("Creation_projet/Page_IAD (1)/button_Maison")): Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Maison' is clicked on
+
+2020-05-21 10:44:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Maison' is clicked on
+
+2020-05-21 10:44:36 - [TEST_STEP][PASSED] - setText(findTestObject("Creation_projet/Page_Welcome page/Page_IAD/input_Lier  un contact_search"), firstname): Text 'test263' is set on object 'Object Repository/Creation_projet/Page_Welcome page/Page_IAD/input_Lier  un contact_search'
+
+2020-05-21 10:44:41 - [MESSAGE][PASSED] - Text 'test263' is set on object 'Object Repository/Creation_projet/Page_Welcome page/Page_IAD/input_Lier  un contact_search'
+
+2020-05-21 10:44:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-05-21 10:44:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-05-21 10:44:43 - [TEST_STEP][PASSED] - click(findTestObject("Creation_projet/Page_Welcome page/Page_IAD/a_Chabanne AFGOUN DAMMARIE-LES-LYS")): Object: 'Object Repository/Creation_projet/Page_Welcome page/Page_IAD/a_Chabanne AFGOUN DAMMARIE-LES-LYS' is clicked on
+
+2020-05-21 10:44:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation_projet/Page_Welcome page/Page_IAD/a_Chabanne AFGOUN DAMMARIE-LES-LYS' is clicked on
+
+2020-05-21 10:44:45 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2020-05-21 10:44:51 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2020-05-21 10:44:51 - [TEST_STEP][PASSED] - click(findTestObject("Creation_projet/Page_IAD (1)/span_tape suivante")): Object: 'Object Repository/Creation_projet/Page_IAD (1)/span_tape suivante' is clicked on
+
+2020-05-21 10:44:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation_projet/Page_IAD (1)/span_tape suivante' is clicked on
+
+2020-05-21 10:44:53 - [TEST_STEP][PASSED] - click(findTestObject("Creation_projet/Page_IAD (1)/button_Enregistrer et quitter")): Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Enregistrer et quitter' is clicked on
+
+2020-05-21 10:44:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Enregistrer et quitter' is clicked on
+
+2020-05-21 10:44:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Creation_projet/Page_IAD/div_Projet cr avec succs"), 0): Object 'Object Repository/Creation_projet/Page_IAD/div_Projet cr avec succs' is present
+
+2020-05-21 10:44:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-21 10:45:00 - [MESSAGE][PASSED] - Object 'Object Repository/Creation_projet/Page_IAD/div_Projet cr avec succs' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IA-integration" time="162.54" classname="Test Cases/IA-integration" status="FAILED">
+         <failure type="FAILED" message="Test Cases/IA-integration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Acquereur41973@gmail.com' of object 'Object Repository/Acquereur/Page_IAD/input_INFORMATIONS COMPLMENTAIRES_mat-input-9'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at IA-integration.run(IA-integration:126)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590057677560.run(TempTestSuite1590057677560.groovy:37)
+Caused by: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-9BRT4J2', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\nezha.e\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50198}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3a05e62d7fc61a3db1a4607afbd396e6
+*** Element info: {Using=xpath, value=//input[@id='mat-input-9']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy9.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:789)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1150)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-21 10:45:00 - [TEST_CASE][FAILED] - Test Cases/IA-integration: Test Cases/IA-integration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Acquereur41973@gmail.com' of object 'Object Repository/Acquereur/Page_IAD/input_INFORMATIONS COMPLMENTAIRES_mat-input-9'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at IA-integration.run(IA-integration:126)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590057677560.run(TempTestSuite1590057677560.groovy:37)
+Caused by: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-9BRT4J2', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\nezha.e\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50198}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3a05e62d7fc61a3db1a4607afbd396e6
+*** Element info: {Using=xpath, value=//input[@id='mat-input-9']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy9.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:789)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1150)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-21 10:45:00 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Création projet"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Création projet"), [:], STOP_ON_FAILURE)
+
+2020-05-21 10:45:00 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Création projet"), [:], STOP_ON_FAILURE)
+
+2020-05-21 10:45:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creation IA/Page_IAD/div_1474169Projet  Emelie02042020 AchatHabi_9dbb01")): Object: 'Object Repository/Creation IA/Page_IAD/div_1474169Projet  Emelie02042020 AchatHabi_9dbb01' is clicked on
+
+2020-05-21 10:45:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation IA/Page_IAD/div_1474169Projet  Emelie02042020 AchatHabi_9dbb01' is clicked on
+
+2020-05-21 10:45:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creation IA/Page_IAD/div_Filtres_iad-list-item-title")): Object: 'Object Repository/Creation IA/Page_IAD/div_Filtres_iad-list-item-title' is clicked on
+
+2020-05-21 10:45:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation IA/Page_IAD/div_Filtres_iad-list-item-title' is clicked on
+
+2020-05-21 10:45:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creation IA/Page_IAD/i_Parking_iad-nav-item-icon business_indica_151f79")): Object: 'Object Repository/Creation IA/Page_IAD/i_Parking_iad-nav-item-icon business_indica_151f79' is clicked on
+
+2020-05-21 10:45:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation IA/Page_IAD/i_Parking_iad-nav-item-icon business_indica_151f79' is clicked on
+
+2020-05-21 10:45:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creation IA/Page_IAD/button_Indication daffaires")): Object: 'Object Repository/Creation IA/Page_IAD/button_Indication daffaires' is clicked on
+
+2020-05-21 10:45:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation IA/Page_IAD/button_Indication daffaires' is clicked on
+
+2020-05-21 10:45:18 - [TEST_STEP][PASSED] - SeqAcq = Math.random() * 9 - 6: null
+
+2020-05-21 10:45:18 - [TEST_STEP][PASSED] - seqAcq1 = SeqAcq * 1000: null
+
+2020-05-21 10:45:18 - [TEST_STEP][PASSED] - jdAcq = seqAcq1: null
+
+2020-05-21 10:45:18 - [TEST_STEP][PASSED] - jdAcquereur = $jdAcq: null
+
+2020-05-21 10:45:18 - [TEST_STEP][PASSED] - getText(findTestObject("Acquereur/verif-modif/Page_IAD/div_Monsieur")): Text of object 'Object Repository/Acquereur/verif-modif/Page_IAD/div_Monsieur' is: 'Madame'
+
+2020-05-21 10:45:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/Acquereur/verif-modif/Page_IAD/div_Monsieur' is: 'Madame'
+
+2020-05-21 10:45:21 - [TEST_STEP][PASSED] - Nom = "Acquereur1" + jdAcquereur: null
+
+2020-05-21 10:45:21 - [TEST_STEP][PASSED] - setText(findTestObject("Acquereur/verif-modif/Page_IAD/input_concat(Prnom de l  acqureur)_mat-input-3"), Nom): Text 'Acquereur11973' is set on object 'Object Repository/Acquereur/verif-modif/Page_IAD/input_concat(Prnom de l  acqureur)_mat-input-3'
+
+2020-05-21 10:45:26 - [MESSAGE][PASSED] - Text 'Acquereur11973' is set on object 'Object Repository/Acquereur/verif-modif/Page_IAD/input_concat(Prnom de l  acqureur)_mat-input-3'
+
+2020-05-21 10:45:26 - [TEST_STEP][PASSED] - Prenom = "Acquereur2" + jdAcquereur: null
+
+2020-05-21 10:45:26 - [TEST_STEP][PASSED] - setText(findTestObject("Acquereur/verif-modif/Page_IAD/input_Genre_mat-input-2"), Prenom): Text 'Acquereur21973' is set on object 'Object Repository/Acquereur/verif-modif/Page_IAD/input_Genre_mat-input-2'
+
+2020-05-21 10:45:31 - [MESSAGE][PASSED] - Text 'Acquereur21973' is set on object 'Object Repository/Acquereur/verif-modif/Page_IAD/input_Genre_mat-input-2'
+
+2020-05-21 10:45:31 - [TEST_STEP][PASSED] - setText(findTestObject("Acquereur/verif-modif/Page_IAD/input_ADRESSE_mat-input-7"), "FRANCE"): Text 'FRANCE' is set on object 'Object Repository/Acquereur/verif-modif/Page_IAD/input_ADRESSE_mat-input-7'
+
+2020-05-21 10:45:36 - [MESSAGE][PASSED] - Text 'FRANCE' is set on object 'Object Repository/Acquereur/verif-modif/Page_IAD/input_ADRESSE_mat-input-7'
+
+2020-05-21 10:45:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-05-21 10:45:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-05-21 10:45:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Acquereur/verif-modif/Page_IAD/input_ADRESSE_mat-input-7"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Acquereur/verif-modif/Page_IAD/input_ADRESSE_mat-input-7'
+
+2020-05-21 10:45:39 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Acquereur/verif-modif/Page_IAD/input_ADRESSE_mat-input-7'
+
+2020-05-21 10:45:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Acquereur/verif-modif/Page_IAD/input_ADRESSE_mat-input-7"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Acquereur/verif-modif/Page_IAD/input_ADRESSE_mat-input-7'
+
+2020-05-21 10:45:42 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Acquereur/verif-modif/Page_IAD/input_ADRESSE_mat-input-7'
+
+2020-05-21 10:45:42 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-21 10:45:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-21 10:45:47 - [TEST_STEP][PASSED] - setText(findTestObject("Acquereur/verif-modif/Page_IAD/input_Pays_1589990366660"), "a"): Text 'a' is set on object 'Object Repository/Acquereur/verif-modif/Page_IAD/input_Pays_1589990366660'
+
+2020-05-21 10:45:51 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/Acquereur/verif-modif/Page_IAD/input_Pays_1589990366660'
+
+2020-05-21 10:45:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-05-21 10:45:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-05-21 10:45:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Acquereur/verif-modif/Page_IAD/input_Pays_1589990366660"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Acquereur/verif-modif/Page_IAD/input_Pays_1589990366660'
+
+2020-05-21 10:45:55 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Acquereur/verif-modif/Page_IAD/input_Pays_1589990366660'
+
+2020-05-21 10:45:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Acquereur/verif-modif/Page_IAD/input_Pays_1589990366660"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Acquereur/verif-modif/Page_IAD/input_Pays_1589990366660'
+
+2020-05-21 10:45:57 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Acquereur/verif-modif/Page_IAD/input_Pays_1589990366660'
+
+2020-05-21 10:45:57 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-21 10:46:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-21 10:46:02 - [TEST_STEP][PASSED] - emailAcq = "Acquereur3" + jdAcquereur + "@gmail.com": null
+
+2020-05-21 10:46:02 - [TEST_STEP][PASSED] - setText(findTestObject("Acquereur/verif-modif/Page_IAD/input_INFORMATIONS COMPLMENTAIRES_mat-input-9"), emailAcq): Text 'Acquereur31973@gmail.com' is set on object 'Object Repository/Acquereur/verif-modif/Page_IAD/input_INFORMATIONS COMPLMENTAIRES_mat-input-9'
+
+2020-05-21 10:46:07 - [MESSAGE][PASSED] - Text 'Acquereur31973@gmail.com' is set on object 'Object Repository/Acquereur/verif-modif/Page_IAD/input_INFORMATIONS COMPLMENTAIRES_mat-input-9'
+
+2020-05-21 10:46:07 - [TEST_STEP][PASSED] - SeqphoneAcq = Math.random() * 9 - 6: null
+
+2020-05-21 10:46:07 - [TEST_STEP][PASSED] - ifseq1 = SeqphoneAcq: null
+
+2020-05-21 10:46:07 - [TEST_STEP][PASSED] - if (ifseq1 == 0): null
+
+2020-05-21 10:46:07 - [TEST_STEP][PASSED] - else: null
+
+2020-05-21 10:46:07 - [TEST_STEP][PASSED] - SeqphoneAcq1 = SeqphoneAcq * 10000000: null
+
+2020-05-21 10:46:07 - [TEST_STEP][PASSED] - phone6 = SeqphoneAcq1: null
+
+2020-05-21 10:46:07 - [TEST_STEP][PASSED] - println(phone6): null
+
+2020-05-21 10:46:07 - [TEST_STEP][PASSED] - setText(findTestObject("Acquereur/verif-modif/Page_IAD/input_E-mail invalide_mat-input-10"), "01" + phone6): Text '0128452108' is set on object 'Object Repository/Acquereur/verif-modif/Page_IAD/input_E-mail invalide_mat-input-10'
+
+2020-05-21 10:46:12 - [MESSAGE][PASSED] - Text '0128452108' is set on object 'Object Repository/Acquereur/verif-modif/Page_IAD/input_E-mail invalide_mat-input-10'
+
+2020-05-21 10:46:12 - [TEST_STEP][PASSED] - click(findTestObject("Acquereur/Page_IAD/mat-icon_Test255_bi-avatar-icon mat-icon notranslate fas fa-plus-circle mat-icon-no-color")): Object: 'Object Repository/Acquereur/Page_IAD/mat-icon_Test255_bi-avatar-icon mat-icon notranslate fas fa-plus-circle mat-icon-no-color' is clicked on
+
+2020-05-21 10:46:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Acquereur/Page_IAD/mat-icon_Test255_bi-avatar-icon mat-icon notranslate fas fa-plus-circle mat-icon-no-color' is clicked on
+
+2020-05-21 10:46:14 - [TEST_STEP][PASSED] - click(findTestObject("Acquereur/verif-modif/Page_IAD/span_Confirmer")): Object: 'Object Repository/Acquereur/verif-modif/Page_IAD/span_Confirmer' is clicked on
+
+2020-05-21 10:46:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Acquereur/verif-modif/Page_IAD/span_Confirmer' is clicked on
+
+2020-05-21 10:46:17 - [TEST_STEP][PASSED] - click(findTestObject("Acquereur/Page_IAD/span_Genre")): Object: 'Object Repository/Acquereur/Page_IAD/span_Genre' is clicked on
+
+2020-05-21 10:46:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Acquereur/Page_IAD/span_Genre' is clicked on
+
+2020-05-21 10:46:22 - [TEST_STEP][PASSED] - click(findTestObject("Acquereur/Page_IAD/span_Madame")): Object: 'Object Repository/Acquereur/Page_IAD/span_Madame' is clicked on
+
+2020-05-21 10:46:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Acquereur/Page_IAD/span_Madame' is clicked on
+
+2020-05-21 10:46:25 - [TEST_STEP][PASSED] - NomAcq2 = "AcquAdd1" + jdAcquereur: null
+
+2020-05-21 10:46:25 - [TEST_STEP][PASSED] - setText(findTestObject("Acquereur/Page_IAD/input_Genre_mat-input-2"), NomAcq2): Text 'AcquAdd11973' is set on object 'Object Repository/Acquereur/Page_IAD/input_Genre_mat-input-2'
+
+2020-05-21 10:46:30 - [MESSAGE][PASSED] - Text 'AcquAdd11973' is set on object 'Object Repository/Acquereur/Page_IAD/input_Genre_mat-input-2'
+
+2020-05-21 10:46:30 - [TEST_STEP][PASSED] - PrenomAcq2 = "AcquAdd2" + jdAcquereur: null
+
+2020-05-21 10:46:30 - [TEST_STEP][PASSED] - setText(findTestObject("Acquereur/Page_IAD/input_concat(Prnom de l  acqureur)_mat-input-3"), PrenomAcq2): Text 'AcquAdd21973' is set on object 'Object Repository/Acquereur/Page_IAD/input_concat(Prnom de l  acqureur)_mat-input-3'
+
+2020-05-21 10:46:35 - [MESSAGE][PASSED] - Text 'AcquAdd21973' is set on object 'Object Repository/Acquereur/Page_IAD/input_concat(Prnom de l  acqureur)_mat-input-3'
+
+2020-05-21 10:46:35 - [TEST_STEP][PASSED] - setText(findTestObject("Acquereur/Page_IAD/input_ADRESSE_mat-input-7"), "France"): Text 'France' is set on object 'Object Repository/Acquereur/Page_IAD/input_ADRESSE_mat-input-7'
+
+2020-05-21 10:46:40 - [MESSAGE][PASSED] - Text 'France' is set on object 'Object Repository/Acquereur/Page_IAD/input_ADRESSE_mat-input-7'
+
+2020-05-21 10:46:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-05-21 10:46:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-05-21 10:46:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Acquereur/Page_IAD/input_ADRESSE_mat-input-7"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Acquereur/Page_IAD/input_ADRESSE_mat-input-7'
+
+2020-05-21 10:46:43 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Acquereur/Page_IAD/input_ADRESSE_mat-input-7'
+
+2020-05-21 10:46:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Acquereur/Page_IAD/input_ADRESSE_mat-input-7"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Acquereur/Page_IAD/input_ADRESSE_mat-input-7'
+
+2020-05-21 10:46:46 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Acquereur/Page_IAD/input_ADRESSE_mat-input-7'
+
+2020-05-21 10:46:46 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-21 10:46:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-21 10:46:51 - [TEST_STEP][PASSED] - setText(findTestObject("Acquereur/Page_IAD/input_Pays_1589984400648"), "a"): Text 'a' is set on object 'Object Repository/Acquereur/Page_IAD/input_Pays_1589984400648'
+
+2020-05-21 10:46:55 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/Acquereur/Page_IAD/input_Pays_1589984400648'
+
+2020-05-21 10:46:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-05-21 10:46:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-05-21 10:46:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Acquereur/Page_IAD/input_Pays_1589984400648"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Acquereur/Page_IAD/input_Pays_1589984400648'
+
+2020-05-21 10:46:59 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Acquereur/Page_IAD/input_Pays_1589984400648'
+
+2020-05-21 10:46:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Acquereur/Page_IAD/input_Pays_1589984400648"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Acquereur/Page_IAD/input_Pays_1589984400648'
+
+2020-05-21 10:47:01 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Acquereur/Page_IAD/input_Pays_1589984400648'
+
+2020-05-21 10:47:01 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-21 10:47:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-21 10:47:06 - [TEST_STEP][PASSED] - emailAcq1 = "Acquereur4" + jdAcquereur + "@gmail.com": null
+
+2020-05-21 10:47:06 - [TEST_STEP][FAILED] - setText(findTestObject("Acquereur/Page_IAD/input_INFORMATIONS COMPLMENTAIRES_mat-input-9"), emailAcq1): Unable to set text 'Acquereur41973@gmail.com' of object 'Object Repository/Acquereur/Page_IAD/input_INFORMATIONS COMPLMENTAIRES_mat-input-9' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Acquereur41973@gmail.com' of object 'Object Repository/Acquereur/Page_IAD/input_INFORMATIONS COMPLMENTAIRES_mat-input-9'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at IA-integration.run(IA-integration:126)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590057677560.run(TempTestSuite1590057677560.groovy:37)
+Caused by: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-9BRT4J2', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\nezha.e\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50198}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3a05e62d7fc61a3db1a4607afbd396e6
+*** Element info: {Using=xpath, value=//input[@id='mat-input-9']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy9.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:789)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1150)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Script1589979671703.run(Script1589979671703.groovy:126)
+	... 13 more
+)
+
+2020-05-21 10:47:42 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2020-05-21 10:47:42 - [MESSAGE][FAILED] - Unable to set text 'Acquereur41973@gmail.com' of object 'Object Repository/Acquereur/Page_IAD/input_INFORMATIONS COMPLMENTAIRES_mat-input-9' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Acquereur41973@gmail.com' of object 'Object Repository/Acquereur/Page_IAD/input_INFORMATIONS COMPLMENTAIRES_mat-input-9'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at IA-integration.run(IA-integration:126)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590057677560.run(TempTestSuite1590057677560.groovy:37)
+Caused by: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-9BRT4J2', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\nezha.e\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50198}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3a05e62d7fc61a3db1a4607afbd396e6
+*** Element info: {Using=xpath, value=//input[@id='mat-input-9']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy9.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:789)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1150)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Script1589979671703.run(Script1589979671703.groovy:126)
+	... 13 more
+)]]></system-out>
+         <system-err><![CDATA[2020-05-21 10:45:00 - [TEST_CASE][FAILED] - Test Cases/IA-integration: Test Cases/IA-integration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Acquereur41973@gmail.com' of object 'Object Repository/Acquereur/Page_IAD/input_INFORMATIONS COMPLMENTAIRES_mat-input-9'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at IA-integration.run(IA-integration:126)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590057677560.run(TempTestSuite1590057677560.groovy:37)
+Caused by: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-9BRT4J2', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\nezha.e\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50198}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3a05e62d7fc61a3db1a4607afbd396e6
+*** Element info: {Using=xpath, value=//input[@id='mat-input-9']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy9.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:789)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1150)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-21 10:41:19 - [TEST_SUITE][FAILED] - Integration-IA-Contact: Test Cases/IA-integration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Acquereur41973@gmail.com' of object 'Object Repository/Acquereur/Page_IAD/input_INFORMATIONS COMPLMENTAIRES_mat-input-9'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at IA-integration.run(IA-integration:126)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590057677560.run(TempTestSuite1590057677560.groovy:37)
+Caused by: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-9BRT4J2', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\nezha.e\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50198}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3a05e62d7fc61a3db1a4607afbd396e6
+*** Element info: {Using=xpath, value=//input[@id='mat-input-9']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy9.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:789)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1150)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-05-21 10:41:19 - [TEST_SUITE][FAILED] - Integration-IA-Contact: Test Cases/IA-integration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Acquereur41973@gmail.com' of object 'Object Repository/Acquereur/Page_IAD/input_INFORMATIONS COMPLMENTAIRES_mat-input-9'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at IA-integration.run(IA-integration:126)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590057677560.run(TempTestSuite1590057677560.groovy:37)
+Caused by: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-9BRT4J2', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\nezha.e\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50198}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3a05e62d7fc61a3db1a4607afbd396e6
+*** Element info: {Using=xpath, value=//input[@id='mat-input-9']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy9.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:789)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1150)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

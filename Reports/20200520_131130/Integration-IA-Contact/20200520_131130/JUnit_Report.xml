@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Integration-IA-Contact" time="367.608" tests="3" failures="2" errors="0">
+   <testsuite name="Integration-IA-Contact" tests="3" failures="2" errors="0" time="367.608" timestamp="2020-05-20 13:11:34" hostname="nezha.e - DESKTOP-9BRT4J2" id="Test Suites/Integration-IA-Contact">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\nezha.e\\Desktop\\Katalon\\Reports\\20200520_131130\\Integration-IA-Contact\\20200520_131130"/>
+         <property name="logFiles" value="C:\\Users\\nezha.e\\Desktop\\Katalon\\Reports\\20200520_131130\\Integration-IA-Contact\\20200520_131130\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\nezha.e\\Desktop\\Katalon\\Reports\\20200520_131130\\Integration-IA-Contact\\20200520_131130\\1589980616162.png, C:\\Users\\nezha.e\\Desktop\\Katalon\\Reports\\20200520_131130\\Integration-IA-Contact\\20200520_131130\\1589980616763.png, C:\\Users\\nezha.e\\Desktop\\Katalon\\Reports\\20200520_131130\\Integration-IA-Contact\\20200520_131130\\1589980661129.png"/>
+         <property name="hostName" value="nezha.e - DESKTOP-9BRT4J2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.4.0.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="192.168.0.107"/>
+         <property name="sessionId" value="7049c03c9a3b432c0fc0a037d585bdb6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Contact" time="237.121" classname="Test Cases/Contact" status="PASSED">
+         <system-out><![CDATA[2020-05-20 13:11:34 - [TEST_CASE][PASSED] - Test Cases/Contact: Test Cases/Contact
+
+2020-05-20 13:11:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-20 13:11:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-20 13:11:35 - [MESSAGE][INFO] - Action delay is set to 2 000 milliseconds
+
+2020-05-20 13:11:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-20 13:11:40 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'http://p13.demo.iadholding.com' successfully
+
+2020-05-20 13:12:03 - [MESSAGE][PASSED] - Navigate to 'http://p13.demo.iadholding.com' successfully
+
+2020-05-20 13:12:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_Welcome page/button_Accder")): Object: 'Object Repository/CreationContact/Page_Welcome page/button_Accder' is clicked on
+
+2020-05-20 13:12:26 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_Welcome page/button_Accder' is clicked on
+
+2020-05-20 13:12:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Identifiant_username"), usernameConseiller): Text '293@iadfrance.fr' is set on object 'Object Repository/CreationContact/Page_IAD/input_Identifiant_username'
+
+2020-05-20 13:12:31 - [MESSAGE][PASSED] - Text '293@iadfrance.fr' is set on object 'Object Repository/CreationContact/Page_IAD/input_Identifiant_username'
+
+2020-05-20 13:12:31 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Mot de passe_password"), mp): Text ****** has been set on object 'Object Repository/CreationContact/Page_IAD/input_Mot de passe_password'
+
+2020-05-20 13:12:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/CreationContact/Page_IAD/input_Mot de passe_password'
+
+2020-05-20 13:12:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/input_Mot de passe_submit")): Object: 'Object Repository/CreationContact/Page_IAD/input_Mot de passe_submit' is clicked on
+
+2020-05-20 13:13:02 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/input_Mot de passe_submit' is clicked on
+
+2020-05-20 13:13:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/button_Dmarrer")): Object: 'Object Repository/CreationContact/Page_IAD/button_Dmarrer' is clicked on
+
+2020-05-20 13:13:04 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/button_Dmarrer' is clicked on
+
+2020-05-20 13:13:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/div_Quitter")): Object: 'Object Repository/CreationContact/Page_IAD/div_Quitter' is clicked on
+
+2020-05-20 13:13:07 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/div_Quitter' is clicked on
+
+2020-05-20 13:13:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/a_Production")): Object: 'Object Repository/CreationContact/Page_IAD/a_Production' is clicked on
+
+2020-05-20 13:13:10 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/a_Production' is clicked on
+
+2020-05-20 13:13:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/a_Myiad contacts")): Object: 'Object Repository/CreationContact/Page_IAD/a_Myiad contacts' is clicked on
+
+2020-05-20 13:13:14 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/a_Myiad contacts' is clicked on
+
+2020-05-20 13:13:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/button_Crer")): Object: 'Object Repository/CreationContact/Page_IAD/button_Crer' is clicked on
+
+2020-05-20 13:13:23 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/button_Crer' is clicked on
+
+2020-05-20 13:13:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/div_Nouveau contact_myiad-avatar")): Object: 'Object Repository/CreationContact/Page_IAD/div_Nouveau contact_myiad-avatar' is clicked on
+
+2020-05-20 13:13:26 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/div_Nouveau contact_myiad-avatar' is clicked on
+
+2020-05-20 13:13:26 - [TEST_STEP][PASSED] - Seq5 = Math.random() * 9 - 6: null
+
+2020-05-20 13:13:26 - [TEST_STEP][PASSED] - seq55 = Seq5 * 100: null
+
+2020-05-20 13:13:26 - [TEST_STEP][PASSED] - jdcontact = seq55: null
+
+2020-05-20 13:13:26 - [TEST_STEP][PASSED] - jdcont = $jdcontact: null
+
+2020-05-20 13:13:26 - [TEST_STEP][PASSED] - firstname = "test" + jdcont: null
+
+2020-05-20 13:13:26 - [TEST_STEP][PASSED] - println(firstname): null
+
+2020-05-20 13:13:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Prnom_firstName"), firstname): Text 'test282' is set on object 'Object Repository/CreationContact/Page_IAD/input_Prnom_firstName'
+
+2020-05-20 13:13:31 - [MESSAGE][PASSED] - Text 'test282' is set on object 'Object Repository/CreationContact/Page_IAD/input_Prnom_firstName'
+
+2020-05-20 13:13:31 - [TEST_STEP][PASSED] - lastname = "test1" + jdcont: null
+
+2020-05-20 13:13:31 - [TEST_STEP][PASSED] - println(lastname): null
+
+2020-05-20 13:13:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Nom_lastName"), lastname): Text 'test1282' is set on object 'Object Repository/CreationContact/Page_IAD/input_Nom_lastName'
+
+2020-05-20 13:13:36 - [MESSAGE][PASSED] - Text 'test1282' is set on object 'Object Repository/CreationContact/Page_IAD/input_Nom_lastName'
+
+2020-05-20 13:13:36 - [TEST_STEP][PASSED] - usedname = "test3" + jdcont: null
+
+2020-05-20 13:13:36 - [TEST_STEP][PASSED] - println(usedname): null
+
+2020-05-20 13:13:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_concat(Nom d  usage)_usageName"), usedname): Text 'test3282' is set on object 'Object Repository/CreationContact/Page_IAD/input_concat(Nom d  usage)_usageName'
+
+2020-05-20 13:13:41 - [MESSAGE][PASSED] - Text 'test3282' is set on object 'Object Repository/CreationContact/Page_IAD/input_concat(Nom d  usage)_usageName'
+
+2020-05-20 13:13:41 - [TEST_STEP][PASSED] - jeunefille = "test4" + jdcont: null
+
+2020-05-20 13:13:41 - [TEST_STEP][PASSED] - println(jeunefille): null
+
+2020-05-20 13:13:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Nom de jeune fille_birthName"), jeunefille): Text 'test4282' is set on object 'Object Repository/CreationContact/Page_IAD/input_Nom de jeune fille_birthName'
+
+2020-05-20 13:13:46 - [MESSAGE][PASSED] - Text 'test4282' is set on object 'Object Repository/CreationContact/Page_IAD/input_Nom de jeune fille_birthName'
+
+2020-05-20 13:13:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/input_Date de naissance_birthDate")): Object: 'Object Repository/CreationContact/Page_IAD/input_Date de naissance_birthDate' is clicked on
+
+2020-05-20 13:13:48 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/input_Date de naissance_birthDate' is clicked on
+
+2020-05-20 13:13:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/span_13")): Object: 'Object Repository/CreationContact/Page_IAD/span_13' is clicked on
+
+2020-05-20 13:13:51 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_13' is clicked on
+
+2020-05-20 13:13:51 - [TEST_STEP][PASSED] - datebirth = getAttribute(findTestObject("CreationContact/Page_IAD/input_Date de naissance_birthDate"), "value"): Attribute 'value' of object 'Object Repository/CreationContact/Page_IAD/input_Date de naissance_birthDate' is: '13/05/2020'
+
+2020-05-20 13:13:52 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/CreationContact/Page_IAD/input_Date de naissance_birthDate' is: '13/05/2020'
+
+2020-05-20 13:13:52 - [TEST_STEP][PASSED] - DateNaissance = datebirth: null
+
+2020-05-20 13:13:52 - [TEST_STEP][PASSED] - println(DateNaissance): null
+
+2020-05-20 13:13:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/span_Lieu de naissance_btn btn-default form_bf2c5d")): Object: 'Object Repository/CreationContact/Page_IAD/span_Lieu de naissance_btn btn-default form_bf2c5d' is clicked on
+
+2020-05-20 13:13:54 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_Lieu de naissance_btn btn-default form_bf2c5d' is clicked on
+
+2020-05-20 13:13:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/span_02")): Object: 'Object Repository/CreationContact/Page_IAD/span_02' is clicked on
+
+2020-05-20 13:13:57 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_02' is clicked on
+
+2020-05-20 13:13:57 - [TEST_STEP][PASSED] - lieuBirth = "test5" + jdcont: null
+
+2020-05-20 13:13:57 - [TEST_STEP][PASSED] - println(lieuBirth): null
+
+2020-05-20 13:13:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Lieu de naissance_birthPlace"), lieuBirth): Text 'test5282' is set on object 'Object Repository/CreationContact/Page_IAD/input_Lieu de naissance_birthPlace'
+
+2020-05-20 13:14:02 - [MESSAGE][PASSED] - Text 'test5282' is set on object 'Object Repository/CreationContact/Page_IAD/input_Lieu de naissance_birthPlace'
+
+2020-05-20 13:14:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/span_Choisir")): Object: 'Object Repository/CreationContact/Page_IAD/span_Choisir' is clicked on
+
+2020-05-20 13:14:05 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_Choisir' is clicked on
+
+2020-05-20 13:14:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Choisir_form-control ui-select-search_780576"), "France"): Text 'France' is set on object 'Object Repository/CreationContact/Page_IAD/input_Choisir_form-control ui-select-search_780576'
+
+2020-05-20 13:14:11 - [MESSAGE][PASSED] - Text 'France' is set on object 'Object Repository/CreationContact/Page_IAD/input_Choisir_form-control ui-select-search_780576'
+
+2020-05-20 13:14:11 - [TEST_STEP][PASSED] - pays1 = getText(findTestObject("CreationContact/Page_IAD/span_FRANCE")): Text of object 'Object Repository/CreationContact/Page_IAD/span_FRANCE' is: 'FRANCE'
+
+2020-05-20 13:14:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/CreationContact/Page_IAD/span_FRANCE' is: 'FRANCE'
+
+2020-05-20 13:14:11 - [TEST_STEP][PASSED] - click(findTestObject("CreationContact/Page_IAD/span_FRANCE")): Object: 'Object Repository/CreationContact/Page_IAD/span_FRANCE' is clicked on
+
+2020-05-20 13:14:14 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_FRANCE' is clicked on
+
+2020-05-20 13:14:14 - [TEST_STEP][PASSED] - pays = pays1: null
+
+2020-05-20 13:14:14 - [TEST_STEP][PASSED] - println(pays): null
+
+2020-05-20 13:14:14 - [TEST_STEP][PASSED] - profession = "test8" + jdcont: null
+
+2020-05-20 13:14:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Profession_job"), profession): Text 'test8282' is set on object 'Object Repository/CreationContact/Page_IAD/input_Profession_job'
+
+2020-05-20 13:14:19 - [MESSAGE][PASSED] - Text 'test8282' is set on object 'Object Repository/CreationContact/Page_IAD/input_Profession_job'
+
+2020-05-20 13:14:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/span_Contact  Adresse")): Object: 'Object Repository/CreationContact/Page_IAD/span_Contact  Adresse' is clicked on
+
+2020-05-20 13:14:21 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_Contact  Adresse' is clicked on
+
+2020-05-20 13:14:21 - [TEST_STEP][PASSED] - Seqphone = Math.random() * 9 - 6: null
+
+2020-05-20 13:14:21 - [TEST_STEP][PASSED] - ifseq = Seqphone: null
+
+2020-05-20 13:14:21 - [TEST_STEP][PASSED] - if (ifseq == 0): null
+
+2020-05-20 13:14:21 - [TEST_STEP][PASSED] - else: null
+
+2020-05-20 13:14:21 - [TEST_STEP][PASSED] - phoneseq1 = Seqphone * 10000000: null
+
+2020-05-20 13:14:21 - [TEST_STEP][PASSED] - phone = phoneseq1: null
+
+2020-05-20 13:14:21 - [TEST_STEP][PASSED] - println(phone): null
+
+2020-05-20 13:14:21 - [TEST_STEP][PASSED] - phone1 = "06" + phone: null
+
+2020-05-20 13:14:21 - [TEST_STEP][PASSED] - println(phone1): null
+
+2020-05-20 13:14:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Tlphone_phone2"), phone1): Text '0622876864' is set on object 'Object Repository/CreationContact/Page_IAD/input_Tlphone_phone2'
+
+2020-05-20 13:14:26 - [MESSAGE][PASSED] - Text '0622876864' is set on object 'Object Repository/CreationContact/Page_IAD/input_Tlphone_phone2'
+
+2020-05-20 13:14:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/span_Ajouter un tlphone_fa fa-plus")): Object: 'Object Repository/CreationContact/Page_IAD/span_Ajouter un tlphone_fa fa-plus' is clicked on
+
+2020-05-20 13:14:29 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_Ajouter un tlphone_fa fa-plus' is clicked on
+
+2020-05-20 13:14:29 - [TEST_STEP][PASSED] - phone2 = "01" + phone: null
+
+2020-05-20 13:14:29 - [TEST_STEP][PASSED] - println(phone2): null
+
+2020-05-20 13:14:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Tlphone_phone4"), phone2): Text '0122876864' is set on object 'Object Repository/CreationContact/Page_IAD/input_Tlphone_phone4'
+
+2020-05-20 13:14:34 - [MESSAGE][PASSED] - Text '0122876864' is set on object 'Object Repository/CreationContact/Page_IAD/input_Tlphone_phone4'
+
+2020-05-20 13:14:34 - [TEST_STEP][PASSED] - email1 = "test6." + phone + "@gmail.com": null
+
+2020-05-20 13:14:34 - [TEST_STEP][PASSED] - println(email1): null
+
+2020-05-20 13:14:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_E-mail personnel_emailPersonal-3"), email1): Text 'test6.22876864@gmail.com' is set on object 'Object Repository/CreationContact/Page_IAD/input_E-mail personnel_emailPersonal-3'
+
+2020-05-20 13:14:39 - [MESSAGE][PASSED] - Text 'test6.22876864@gmail.com' is set on object 'Object Repository/CreationContact/Page_IAD/input_E-mail personnel_emailPersonal-3'
+
+2020-05-20 13:14:39 - [TEST_STEP][PASSED] - click(findTestObject("CreationContact/Page_IAD/button_Ajouter un email_btn btn-primary btn-add")): Object: 'Object Repository/CreationContact/Page_IAD/button_Ajouter un email_btn btn-primary btn-add' is clicked on
+
+2020-05-20 13:14:42 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/button_Ajouter un email_btn btn-primary btn-add' is clicked on
+
+2020-05-20 13:14:42 - [TEST_STEP][PASSED] - email2 = "test7." + phone + "@gmail.com": null
+
+2020-05-20 13:14:42 - [TEST_STEP][PASSED] - println(email2): null
+
+2020-05-20 13:14:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_E-mail personnel_emailPersonal-5"), email2): Text 'test7.22876864@gmail.com' is set on object 'Object Repository/CreationContact/Page_IAD/input_E-mail personnel_emailPersonal-5'
+
+2020-05-20 13:14:47 - [MESSAGE][PASSED] - Text 'test7.22876864@gmail.com' is set on object 'Object Repository/CreationContact/Page_IAD/input_E-mail personnel_emailPersonal-5'
+
+2020-05-20 13:14:47 - [TEST_STEP][PASSED] - click(findTestObject("CreationContact/Page_Welcome page/Page_IAD/span_FRANCE")): Object: 'Object Repository/CreationContact/Page_Welcome page/Page_IAD/span_FRANCE' is clicked on
+
+2020-05-20 13:14:50 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_Welcome page/Page_IAD/span_FRANCE' is clicked on
+
+2020-05-20 13:14:50 - [TEST_STEP][PASSED] - setText(findTestObject("CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae"), "France"): Text 'France' is set on object 'Object Repository/CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae'
+
+2020-05-20 13:14:56 - [MESSAGE][PASSED] - Text 'France' is set on object 'Object Repository/CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae'
+
+2020-05-20 13:14:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-05-20 13:14:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-05-20 13:14:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae'
+
+2020-05-20 13:14:59 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae'
+
+2020-05-20 13:14:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae"), Keys.chord(INSERT)): Keys 'INSERT + ' sent to object: 'Object Repository/CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae'
+
+2020-05-20 13:15:02 - [MESSAGE][PASSED] - Keys 'INSERT + ' sent to object: 'Object Repository/CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae'
+
+2020-05-20 13:15:02 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-05-20 13:15:06 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-05-20 13:15:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Adresse_address1"), "a"): Text 'a' is set on object 'Object Repository/CreationContact/Page_IAD/input_Adresse_address1'
+
+2020-05-20 13:15:10 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/CreationContact/Page_IAD/input_Adresse_address1'
+
+2020-05-20 13:15:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-05-20 13:15:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-05-20 13:15:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("CreationContact/Page_IAD/input_Adresse_address1"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/CreationContact/Page_IAD/input_Adresse_address1'
+
+2020-05-20 13:15:14 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/CreationContact/Page_IAD/input_Adresse_address1'
+
+2020-05-20 13:15:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("CreationContact/Page_IAD/input_Adresse_address1"), Keys.chord(INSERT)): Keys 'INSERT + ' sent to object: 'Object Repository/CreationContact/Page_IAD/input_Adresse_address1'
+
+2020-05-20 13:15:16 - [MESSAGE][PASSED] - Keys 'INSERT + ' sent to object: 'Object Repository/CreationContact/Page_IAD/input_Adresse_address1'
+
+2020-05-20 13:15:16 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-20 13:15:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-20 13:15:21 - [TEST_STEP][PASSED] - adressContac = getAttribute(findTestObject("Object Repository/CreationContact/Page_IAD/input_Adresse_address1"), "value"): Attribute 'value' of object 'Object Repository/CreationContact/Page_IAD/input_Adresse_address1' is: 'a'
+
+2020-05-20 13:15:21 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/CreationContact/Page_IAD/input_Adresse_address1' is: 'a'
+
+2020-05-20 13:15:21 - [TEST_STEP][PASSED] - adressContact = adressContac: null
+
+2020-05-20 13:15:21 - [TEST_STEP][PASSED] - println(adressContact): null
+
+2020-05-20 13:15:21 - [TEST_STEP][PASSED] - click(findTestObject("CreationContact/Page_IAD/span_Enregistrer le contact")): Object: 'Object Repository/CreationContact/Page_IAD/span_Enregistrer le contact' is clicked on
+
+2020-05-20 13:15:24 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_Enregistrer le contact' is clicked on
+
+2020-05-20 13:15:24 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2020-05-20 13:15:32 - [MESSAGE][PASSED] - Delayed 8 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Projet" time="84.921" classname="Test Cases/Projet" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Projet FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Creation_projet/Page_IAD/div_Projet cr avec succs' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at Projet.run(Projet:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589980290094.run(TempTestSuite1589980290094.groovy:37)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Creation_projet/Page_IAD/div_Projet cr avec succs' located by 'By.xpath: //*[(text() = '×Projet créé avec succès !' or . = '×Projet créé avec succès !')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-20 13:15:32 - [TEST_CASE][FAILED] - Test Cases/Projet: Test Cases/Projet FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Creation_projet/Page_IAD/div_Projet cr avec succs' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at Projet.run(Projet:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589980290094.run(TempTestSuite1589980290094.groovy:37)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Creation_projet/Page_IAD/div_Projet cr avec succs' located by 'By.xpath: //*[(text() = '×Projet créé avec succès !' or . = '×Projet créé avec succès !')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-20 13:15:32 - [TEST_STEP][PASSED] - click(findTestObject("CreationContact/Page_IAD/a_Myiad acqureurs")): Object: 'Object Repository/CreationContact/Page_IAD/a_Myiad acqureurs' is clicked on
+
+2020-05-20 13:15:34 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/a_Myiad acqureurs' is clicked on
+
+2020-05-20 13:15:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-20 13:15:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-20 13:15:37 - [TEST_STEP][PASSED] - click(findTestObject("Creation_projet/Page_IAD (1)/span_Crer")): Object: 'Object Repository/Creation_projet/Page_IAD (1)/span_Crer' is clicked on
+
+2020-05-20 13:15:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation_projet/Page_IAD (1)/span_Crer' is clicked on
+
+2020-05-20 13:15:40 - [TEST_STEP][PASSED] - click(findTestObject("Creation_projet/Page_IAD (1)/button_Achat")): Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Achat' is clicked on
+
+2020-05-20 13:15:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Achat' is clicked on
+
+2020-05-20 13:15:43 - [TEST_STEP][PASSED] - click(findTestObject("Creation_projet/Page_IAD (1)/button_Habitation")): Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Habitation' is clicked on
+
+2020-05-20 13:15:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Habitation' is clicked on
+
+2020-05-20 13:15:46 - [TEST_STEP][PASSED] - click(findTestObject("Creation_projet/Page_IAD (1)/button_Traditionnel")): Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Traditionnel' is clicked on
+
+2020-05-20 13:15:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Traditionnel' is clicked on
+
+2020-05-20 13:15:48 - [TEST_STEP][PASSED] - click(findTestObject("Creation_projet/Page_IAD (1)/button_Maison")): Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Maison' is clicked on
+
+2020-05-20 13:15:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Maison' is clicked on
+
+2020-05-20 13:15:51 - [TEST_STEP][PASSED] - setText(findTestObject("Creation_projet/Page_Welcome page/Page_IAD/input_Lier  un contact_search"), firstname): Text 'test282' is set on object 'Object Repository/Creation_projet/Page_Welcome page/Page_IAD/input_Lier  un contact_search'
+
+2020-05-20 13:15:56 - [MESSAGE][PASSED] - Text 'test282' is set on object 'Object Repository/Creation_projet/Page_Welcome page/Page_IAD/input_Lier  un contact_search'
+
+2020-05-20 13:15:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-05-20 13:15:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-05-20 13:15:58 - [TEST_STEP][PASSED] - click(findTestObject("Creation_projet/Page_Welcome page/Page_IAD/a_Chabanne AFGOUN DAMMARIE-LES-LYS")): Object: 'Object Repository/Creation_projet/Page_Welcome page/Page_IAD/a_Chabanne AFGOUN DAMMARIE-LES-LYS' is clicked on
+
+2020-05-20 13:16:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation_projet/Page_Welcome page/Page_IAD/a_Chabanne AFGOUN DAMMARIE-LES-LYS' is clicked on
+
+2020-05-20 13:16:00 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2020-05-20 13:16:06 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2020-05-20 13:16:06 - [TEST_STEP][PASSED] - click(findTestObject("Creation_projet/Page_IAD (1)/span_tape suivante")): Object: 'Object Repository/Creation_projet/Page_IAD (1)/span_tape suivante' is clicked on
+
+2020-05-20 13:16:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation_projet/Page_IAD (1)/span_tape suivante' is clicked on
+
+2020-05-20 13:16:09 - [TEST_STEP][PASSED] - click(findTestObject("Creation_projet/Page_IAD (1)/button_Enregistrer et quitter")): Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Enregistrer et quitter' is clicked on
+
+2020-05-20 13:16:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Enregistrer et quitter' is clicked on
+
+2020-05-20 13:16:11 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Creation_projet/Page_IAD/div_Projet cr avec succs"), 0): Unable to verify object 'Object Repository/Creation_projet/Page_IAD/div_Projet cr avec succs' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Creation_projet/Page_IAD/div_Projet cr avec succs' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at Projet.run(Projet:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589980290094.run(TempTestSuite1589980290094.groovy:37)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Creation_projet/Page_IAD/div_Projet cr avec succs' located by 'By.xpath: //*[(text() = '×Projet créé avec succès !' or . = '×Projet créé avec succès !')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-05-20 13:16:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 13:16:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = '×Projet créé avec succès !' or . = '×Projet créé avec succès !')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-05-20 13:16:56 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Creation_projet/Page_IAD/div_Projet cr avec succs' located by 'By.xpath: //*[(text() = '×Projet créé avec succès !' or . = '×Projet créé avec succès !')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Creation_projet/Page_IAD/div_Projet cr avec succs' located by 'By.xpath: //*[(text() = '×Projet créé avec succès !' or . = '×Projet créé avec succès !')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at Projet.run(Projet:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589980290094.run(TempTestSuite1589980290094.groovy:37)
+)
+[[ATTACHMENT|C:\\Users\\nezha.e\\Desktop\\Katalon\\Reports\\20200520_131130\\Integration-IA-Contact\\20200520_131130\\1589980616162.png]]
+
+2020-05-20 13:16:57 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Creation_projet/Page_IAD/div_Projet cr avec succs' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Creation_projet/Page_IAD/div_Projet cr avec succs' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at Projet.run(Projet:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589980290094.run(TempTestSuite1589980290094.groovy:37)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Creation_projet/Page_IAD/div_Projet cr avec succs' located by 'By.xpath: //*[(text() = '×Projet créé avec succès !' or . = '×Projet créé avec succès !')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\nezha.e\\Desktop\\Katalon\\Reports\\20200520_131130\\Integration-IA-Contact\\20200520_131130\\1589980616763.png]]]]></system-out>
+         <system-err><![CDATA[2020-05-20 13:15:32 - [TEST_CASE][FAILED] - Test Cases/Projet: Test Cases/Projet FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Creation_projet/Page_IAD/div_Projet cr avec succs' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at Projet.run(Projet:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589980290094.run(TempTestSuite1589980290094.groovy:37)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Creation_projet/Page_IAD/div_Projet cr avec succs' located by 'By.xpath: //*[(text() = '×Projet créé avec succès !' or . = '×Projet créé avec succès !')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IA-integration" time="44.354" classname="Test Cases/IA-integration" status="FAILED">
+         <failure type="FAILED" message="Test Cases/IA-integration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Creation IA/Page_IAD/div_1474169Projet  Emelie02042020 AchatHabi_9dbb01'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at IA-integration.run(IA-integration:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589980290094.run(TempTestSuite1589980290094.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Creation IA/Page_IAD/div_1474169Projet  Emelie02042020 AchatHabi_9dbb01' located by 'By.xpath: //div[@id='iad-goto-top']/div/div[2]/iad-content-body/iad-my-iad-project/ui-view/iad-agent-my-iad-project-list-page/div/iad-infinite-list/div/iad-infinite-scroll/div/iad-list/ul/li/div/iad-list-item/iad-my-iad-project-list-item/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-20 13:16:57 - [TEST_CASE][FAILED] - Test Cases/IA-integration: Test Cases/IA-integration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Creation IA/Page_IAD/div_1474169Projet  Emelie02042020 AchatHabi_9dbb01'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at IA-integration.run(IA-integration:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589980290094.run(TempTestSuite1589980290094.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Creation IA/Page_IAD/div_1474169Projet  Emelie02042020 AchatHabi_9dbb01' located by 'By.xpath: //div[@id='iad-goto-top']/div/div[2]/iad-content-body/iad-my-iad-project/ui-view/iad-agent-my-iad-project-list-page/div/iad-infinite-list/div/iad-infinite-scroll/div/iad-list/ul/li/div/iad-list-item/iad-my-iad-project-list-item/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-20 13:16:57 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Création projet"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Création projet"), [:], STOP_ON_FAILURE)
+
+2020-05-20 13:16:57 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Création projet"), [:], STOP_ON_FAILURE)
+
+2020-05-20 13:16:57 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Creation IA/Page_IAD/div_1474169Projet  Emelie02042020 AchatHabi_9dbb01")): Unable to click on object 'Object Repository/Creation IA/Page_IAD/div_1474169Projet  Emelie02042020 AchatHabi_9dbb01' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Creation IA/Page_IAD/div_1474169Projet  Emelie02042020 AchatHabi_9dbb01'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at IA-integration.run(IA-integration:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589980290094.run(TempTestSuite1589980290094.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Creation IA/Page_IAD/div_1474169Projet  Emelie02042020 AchatHabi_9dbb01' located by 'By.xpath: //div[@id='iad-goto-top']/div/div[2]/iad-content-body/iad-my-iad-project/ui-view/iad-agent-my-iad-project-list-page/div/iad-infinite-list/div/iad-infinite-scroll/div/iad-list/ul/li/div/iad-list-item/iad-my-iad-project-list-item/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1589979671703.run(Script1589979671703.groovy:21)
+	... 13 more
+)
+
+2020-05-20 13:17:41 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='iad-goto-top']/div/div[2]/iad-content-body/iad-my-iad-project/ui-view/iad-agent-my-iad-project-list-page/div/iad-infinite-list/div/iad-infinite-scroll/div/iad-list/ul/li/div/iad-list-item/iad-my-iad-project-list-item/div/div[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-05-20 13:17:41 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Creation IA/Page_IAD/div_1474169Projet  Emelie02042020 AchatHabi_9dbb01' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Creation IA/Page_IAD/div_1474169Projet  Emelie02042020 AchatHabi_9dbb01'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at IA-integration.run(IA-integration:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589980290094.run(TempTestSuite1589980290094.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Creation IA/Page_IAD/div_1474169Projet  Emelie02042020 AchatHabi_9dbb01' located by 'By.xpath: //div[@id='iad-goto-top']/div/div[2]/iad-content-body/iad-my-iad-project/ui-view/iad-agent-my-iad-project-list-page/div/iad-infinite-list/div/iad-infinite-scroll/div/iad-list/ul/li/div/iad-list-item/iad-my-iad-project-list-item/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1589979671703.run(Script1589979671703.groovy:21)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\nezha.e\\Desktop\\Katalon\\Reports\\20200520_131130\\Integration-IA-Contact\\20200520_131130\\1589980661129.png]]]]></system-out>
+         <system-err><![CDATA[2020-05-20 13:16:57 - [TEST_CASE][FAILED] - Test Cases/IA-integration: Test Cases/IA-integration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Creation IA/Page_IAD/div_1474169Projet  Emelie02042020 AchatHabi_9dbb01'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at IA-integration.run(IA-integration:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589980290094.run(TempTestSuite1589980290094.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Creation IA/Page_IAD/div_1474169Projet  Emelie02042020 AchatHabi_9dbb01' located by 'By.xpath: //div[@id='iad-goto-top']/div/div[2]/iad-content-body/iad-my-iad-project/ui-view/iad-agent-my-iad-project-list-page/div/iad-infinite-list/div/iad-infinite-scroll/div/iad-list/ul/li/div/iad-list-item/iad-my-iad-project-list-item/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-20 13:11:34 - [TEST_SUITE][FAILED] - Integration-IA-Contact: Test Cases/Projet FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Creation_projet/Page_IAD/div_Projet cr avec succs' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at Projet.run(Projet:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589980290094.run(TempTestSuite1589980290094.groovy:37)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Creation_projet/Page_IAD/div_Projet cr avec succs' located by 'By.xpath: //*[(text() = '×Projet créé avec succès !' or . = '×Projet créé avec succès !')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-05-20 13:11:34 - [TEST_SUITE][FAILED] - Integration-IA-Contact: Test Cases/Projet FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Creation_projet/Page_IAD/div_Projet cr avec succs' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at Projet.run(Projet:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589980290094.run(TempTestSuite1589980290094.groovy:37)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Creation_projet/Page_IAD/div_Projet cr avec succs' located by 'By.xpath: //*[(text() = '×Projet créé avec succès !' or . = '×Projet créé avec succès !')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

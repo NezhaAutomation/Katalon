@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Integration-IA-Contact,Chrome 81.0.4044.138,,,2020-05-20 14:36:11,2020-05-20 14:48:00,"11m - 48,894s",FAILED
+,,,,,,,
+Test Cases/Contact,Chrome 81.0.4044.138,,,2020-05-20 14:36:11,2020-05-20 14:46:31,"10m - 20,036s",FAILED
+"openBrowser("""")",Chrome 81.0.4044.138,,,2020-05-20 14:36:12,2020-05-20 14:36:16,"4,509s",PASSED
+navigateToUrl(URL),Chrome 81.0.4044.138,,,2020-05-20 14:36:16,2020-05-20 14:36:39,"22,683s",PASSED
+"click(findTestObject(""Object Repository/CreationContact/Page_Welcome page/button_Accder""))",Chrome 81.0.4044.138,,,2020-05-20 14:36:39,2020-05-20 14:40:21,"3m - 42,312s",PASSED
+"setText(findTestObject(""Object Repository/CreationContact/Page_IAD/input_Identifiant_username""), usernameConseiller)",Chrome 81.0.4044.138,,,2020-05-20 14:40:21,2020-05-20 14:40:26,"4,648s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/CreationContact/Page_IAD/input_Mot de passe_password""), mp)",Chrome 81.0.4044.138,,,2020-05-20 14:40:26,2020-05-20 14:40:30,"4,416s",PASSED
+"click(findTestObject(""Object Repository/CreationContact/Page_IAD/input_Mot de passe_submit""))",Chrome 81.0.4044.138,,,2020-05-20 14:40:30,2020-05-20 14:41:19,"48,808s",PASSED
+"click(findTestObject(""Object Repository/CreationContact/Page_IAD/button_Dmarrer""))",Chrome 81.0.4044.138,,,2020-05-20 14:41:19,2020-05-20 14:41:22,"3,312s",PASSED
+"click(findTestObject(""Object Repository/CreationContact/Page_IAD/div_Quitter""))",Chrome 81.0.4044.138,,,2020-05-20 14:41:22,2020-05-20 14:41:25,"3,165s",PASSED
+"click(findTestObject(""Object Repository/CreationContact/Page_IAD/a_Production""))",Chrome 81.0.4044.138,,,2020-05-20 14:41:25,2020-05-20 14:41:28,"2,531s",PASSED
+"click(findTestObject(""Object Repository/CreationContact/Page_IAD/a_Myiad contacts""))",Chrome 81.0.4044.138,,,2020-05-20 14:41:28,2020-05-20 14:46:31,"5m - 3,131s",FAILED
+,,,,,,,
+Test Cases/Projet,Chrome 81.0.4044.138,,,2020-05-20 14:46:31,2020-05-20 14:47:15,"44,291s",FAILED
+"click(findTestObject(""CreationContact/Page_IAD/a_Myiad acqureurs""))",Chrome 81.0.4044.138,,,2020-05-20 14:46:31,2020-05-20 14:47:15,"44,095s",FAILED
+,,,,,,,
+Test Cases/IA-integration,Chrome 81.0.4044.138,,,2020-05-20 14:47:15,2020-05-20 14:48:00,"44,283s",FAILED
+"callTestCase(findTestCase(""Création projet""), [:], STOP_ON_FAILURE)",Chrome 81.0.4044.138,,,2020-05-20 14:47:16,2020-05-20 14:47:16,"0,003s",NOT_RUN
+"click(findTestObject(""Object Repository/Creation IA/Page_IAD/div_1474169Projet  Emelie02042020 AchatHabi_9dbb01""))",Chrome 81.0.4044.138,,,2020-05-20 14:47:16,2020-05-20 14:48:00,"44,054s",FAILED

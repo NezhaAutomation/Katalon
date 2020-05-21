@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Integration-IA-Contact,Chrome 81.0.4044.138,,,2020-05-20 12:29:46,2020-05-20 12:30:04,"18,046s",FAILED
+,,,,,,,
+Test Cases/Contact,Chrome 81.0.4044.138,,,2020-05-20 12:29:46,2020-05-20 12:30:02,"15,750s",FAILED
+"openBrowser("""")",Chrome 81.0.4044.138,,,2020-05-20 12:29:46,2020-05-20 12:29:51,"4,406s",PASSED
+navigateToUrl(URL),Chrome 81.0.4044.138,,,2020-05-20 12:29:51,2020-05-20 12:29:57,"6,612s",PASSED
+"click(findTestObject(""Object Repository/CreationContact/Page_Welcome page/button_Accder""))",Chrome 81.0.4044.138,,,2020-05-20 12:29:57,2020-05-20 12:30:02,"4,284s",FAILED
+,,,,,,,
+Test Cases/Projet,Chrome 81.0.4044.138,,,2020-05-20 12:30:02,2020-05-20 12:30:04,"2,052s",FAILED
+"click(findTestObject(""CreationContact/Page_IAD/a_Myiad acqureurs""))",Chrome 81.0.4044.138,,,2020-05-20 12:30:02,2020-05-20 12:30:04,"1,769s",FAILED

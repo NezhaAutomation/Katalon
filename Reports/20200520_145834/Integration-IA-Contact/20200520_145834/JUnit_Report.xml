@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Integration-IA-Contact" time="371.707" tests="3" failures="0" errors="0">
+   <testsuite name="Integration-IA-Contact" tests="3" failures="0" errors="0" time="371.707" timestamp="2020-05-20 14:58:36" hostname="nezha.e - DESKTOP-9BRT4J2" id="Test Suites/Integration-IA-Contact">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\nezha.e\\Desktop\\Katalon\\Reports\\20200520_145834\\Integration-IA-Contact\\20200520_145834"/>
+         <property name="logFiles" value="C:\\Users\\nezha.e\\Desktop\\Katalon\\Reports\\20200520_145834\\Integration-IA-Contact\\20200520_145834\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nezha.e - DESKTOP-9BRT4J2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.4.0.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="192.168.0.107"/>
+         <property name="sessionId" value="f1e6bbb5a5f769e79d6fdb2a8bee205a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Contact" time="205.01" classname="Test Cases/Contact" status="PASSED">
+         <system-out><![CDATA[2020-05-20 14:58:36 - [TEST_CASE][PASSED] - Test Cases/Contact: Test Cases/Contact
+
+2020-05-20 14:58:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-20 14:58:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-20 14:58:37 - [MESSAGE][INFO] - Action delay is set to 2 000 milliseconds
+
+2020-05-20 14:58:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-20 14:58:41 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'http://p13.demo.iadholding.com' successfully
+
+2020-05-20 14:58:44 - [MESSAGE][PASSED] - Navigate to 'http://p13.demo.iadholding.com' successfully
+
+2020-05-20 14:58:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_Welcome page/button_Accder")): Object: 'Object Repository/CreationContact/Page_Welcome page/button_Accder' is clicked on
+
+2020-05-20 14:58:50 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_Welcome page/button_Accder' is clicked on
+
+2020-05-20 14:58:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Identifiant_username"), usernameConseiller): Text '293@iadfrance.fr' is set on object 'Object Repository/CreationContact/Page_IAD/input_Identifiant_username'
+
+2020-05-20 14:58:55 - [MESSAGE][PASSED] - Text '293@iadfrance.fr' is set on object 'Object Repository/CreationContact/Page_IAD/input_Identifiant_username'
+
+2020-05-20 14:58:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Mot de passe_password"), mp): Text ****** has been set on object 'Object Repository/CreationContact/Page_IAD/input_Mot de passe_password'
+
+2020-05-20 14:58:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/CreationContact/Page_IAD/input_Mot de passe_password'
+
+2020-05-20 14:58:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/input_Mot de passe_submit")): Object: 'Object Repository/CreationContact/Page_IAD/input_Mot de passe_submit' is clicked on
+
+2020-05-20 14:59:09 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/input_Mot de passe_submit' is clicked on
+
+2020-05-20 14:59:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/button_Dmarrer")): Object: 'Object Repository/CreationContact/Page_IAD/button_Dmarrer' is clicked on
+
+2020-05-20 14:59:11 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/button_Dmarrer' is clicked on
+
+2020-05-20 14:59:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/div_Quitter")): Object: 'Object Repository/CreationContact/Page_IAD/div_Quitter' is clicked on
+
+2020-05-20 14:59:15 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/div_Quitter' is clicked on
+
+2020-05-20 14:59:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/a_Production")): Object: 'Object Repository/CreationContact/Page_IAD/a_Production' is clicked on
+
+2020-05-20 14:59:17 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/a_Production' is clicked on
+
+2020-05-20 14:59:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/a_Myiad contacts")): Object: 'Object Repository/CreationContact/Page_IAD/a_Myiad contacts' is clicked on
+
+2020-05-20 14:59:37 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/a_Myiad contacts' is clicked on
+
+2020-05-20 14:59:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/button_Crer")): Object: 'Object Repository/CreationContact/Page_IAD/button_Crer' is clicked on
+
+2020-05-20 14:59:52 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/button_Crer' is clicked on
+
+2020-05-20 14:59:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/div_Nouveau contact_myiad-avatar")): Object: 'Object Repository/CreationContact/Page_IAD/div_Nouveau contact_myiad-avatar' is clicked on
+
+2020-05-20 14:59:55 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/div_Nouveau contact_myiad-avatar' is clicked on
+
+2020-05-20 14:59:55 - [TEST_STEP][PASSED] - Seq5 = Math.random() * 9 - 6: null
+
+2020-05-20 14:59:55 - [TEST_STEP][PASSED] - seq55 = Seq5 * 100: null
+
+2020-05-20 14:59:55 - [TEST_STEP][PASSED] - jdcontact = seq55: null
+
+2020-05-20 14:59:55 - [TEST_STEP][PASSED] - jdcont = $jdcontact: null
+
+2020-05-20 14:59:55 - [TEST_STEP][PASSED] - firstname = "test" + jdcont: null
+
+2020-05-20 14:59:55 - [TEST_STEP][PASSED] - println(firstname): null
+
+2020-05-20 14:59:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Prnom_firstName"), firstname): Text 'test176' is set on object 'Object Repository/CreationContact/Page_IAD/input_Prnom_firstName'
+
+2020-05-20 15:00:00 - [MESSAGE][PASSED] - Text 'test176' is set on object 'Object Repository/CreationContact/Page_IAD/input_Prnom_firstName'
+
+2020-05-20 15:00:00 - [TEST_STEP][PASSED] - lastname = "test1" + jdcont: null
+
+2020-05-20 15:00:00 - [TEST_STEP][PASSED] - println(lastname): null
+
+2020-05-20 15:00:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Nom_lastName"), lastname): Text 'test1176' is set on object 'Object Repository/CreationContact/Page_IAD/input_Nom_lastName'
+
+2020-05-20 15:00:05 - [MESSAGE][PASSED] - Text 'test1176' is set on object 'Object Repository/CreationContact/Page_IAD/input_Nom_lastName'
+
+2020-05-20 15:00:05 - [TEST_STEP][PASSED] - usedname = "test3" + jdcont: null
+
+2020-05-20 15:00:05 - [TEST_STEP][PASSED] - println(usedname): null
+
+2020-05-20 15:00:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_concat(Nom d  usage)_usageName"), usedname): Text 'test3176' is set on object 'Object Repository/CreationContact/Page_IAD/input_concat(Nom d  usage)_usageName'
+
+2020-05-20 15:00:10 - [MESSAGE][PASSED] - Text 'test3176' is set on object 'Object Repository/CreationContact/Page_IAD/input_concat(Nom d  usage)_usageName'
+
+2020-05-20 15:00:10 - [TEST_STEP][PASSED] - jeunefille = "test4" + jdcont: null
+
+2020-05-20 15:00:10 - [TEST_STEP][PASSED] - println(jeunefille): null
+
+2020-05-20 15:00:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Nom de jeune fille_birthName"), jeunefille): Text 'test4176' is set on object 'Object Repository/CreationContact/Page_IAD/input_Nom de jeune fille_birthName'
+
+2020-05-20 15:00:15 - [MESSAGE][PASSED] - Text 'test4176' is set on object 'Object Repository/CreationContact/Page_IAD/input_Nom de jeune fille_birthName'
+
+2020-05-20 15:00:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/input_Date de naissance_birthDate")): Object: 'Object Repository/CreationContact/Page_IAD/input_Date de naissance_birthDate' is clicked on
+
+2020-05-20 15:00:18 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/input_Date de naissance_birthDate' is clicked on
+
+2020-05-20 15:00:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/span_13")): Object: 'Object Repository/CreationContact/Page_IAD/span_13' is clicked on
+
+2020-05-20 15:00:20 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_13' is clicked on
+
+2020-05-20 15:00:20 - [TEST_STEP][PASSED] - datebirth = getAttribute(findTestObject("CreationContact/Page_IAD/input_Date de naissance_birthDate"), "value"): Attribute 'value' of object 'Object Repository/CreationContact/Page_IAD/input_Date de naissance_birthDate' is: '13/05/2020'
+
+2020-05-20 15:00:21 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/CreationContact/Page_IAD/input_Date de naissance_birthDate' is: '13/05/2020'
+
+2020-05-20 15:00:21 - [TEST_STEP][PASSED] - DateNaissance = datebirth: null
+
+2020-05-20 15:00:21 - [TEST_STEP][PASSED] - println(DateNaissance): null
+
+2020-05-20 15:00:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/span_Lieu de naissance_btn btn-default form_bf2c5d")): Object: 'Object Repository/CreationContact/Page_IAD/span_Lieu de naissance_btn btn-default form_bf2c5d' is clicked on
+
+2020-05-20 15:00:23 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_Lieu de naissance_btn btn-default form_bf2c5d' is clicked on
+
+2020-05-20 15:00:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/span_02")): Object: 'Object Repository/CreationContact/Page_IAD/span_02' is clicked on
+
+2020-05-20 15:00:26 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_02' is clicked on
+
+2020-05-20 15:00:26 - [TEST_STEP][PASSED] - lieuBirth = "test5" + jdcont: null
+
+2020-05-20 15:00:26 - [TEST_STEP][PASSED] - println(lieuBirth): null
+
+2020-05-20 15:00:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Lieu de naissance_birthPlace"), lieuBirth): Text 'test5176' is set on object 'Object Repository/CreationContact/Page_IAD/input_Lieu de naissance_birthPlace'
+
+2020-05-20 15:00:31 - [MESSAGE][PASSED] - Text 'test5176' is set on object 'Object Repository/CreationContact/Page_IAD/input_Lieu de naissance_birthPlace'
+
+2020-05-20 15:00:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/span_Choisir")): Object: 'Object Repository/CreationContact/Page_IAD/span_Choisir' is clicked on
+
+2020-05-20 15:00:34 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_Choisir' is clicked on
+
+2020-05-20 15:00:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Choisir_form-control ui-select-search_780576"), "France"): Text 'France' is set on object 'Object Repository/CreationContact/Page_IAD/input_Choisir_form-control ui-select-search_780576'
+
+2020-05-20 15:00:40 - [MESSAGE][PASSED] - Text 'France' is set on object 'Object Repository/CreationContact/Page_IAD/input_Choisir_form-control ui-select-search_780576'
+
+2020-05-20 15:00:40 - [TEST_STEP][PASSED] - pays1 = getText(findTestObject("CreationContact/Page_IAD/span_FRANCE")): Text of object 'Object Repository/CreationContact/Page_IAD/span_FRANCE' is: 'FRANCE'
+
+2020-05-20 15:00:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/CreationContact/Page_IAD/span_FRANCE' is: 'FRANCE'
+
+2020-05-20 15:00:41 - [TEST_STEP][PASSED] - click(findTestObject("CreationContact/Page_IAD/span_FRANCE")): Object: 'Object Repository/CreationContact/Page_IAD/span_FRANCE' is clicked on
+
+2020-05-20 15:00:43 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_FRANCE' is clicked on
+
+2020-05-20 15:00:43 - [TEST_STEP][PASSED] - pays = pays1: null
+
+2020-05-20 15:00:43 - [TEST_STEP][PASSED] - println(pays): null
+
+2020-05-20 15:00:43 - [TEST_STEP][PASSED] - profession = "test8" + jdcont: null
+
+2020-05-20 15:00:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Profession_job"), profession): Text 'test8176' is set on object 'Object Repository/CreationContact/Page_IAD/input_Profession_job'
+
+2020-05-20 15:00:48 - [MESSAGE][PASSED] - Text 'test8176' is set on object 'Object Repository/CreationContact/Page_IAD/input_Profession_job'
+
+2020-05-20 15:00:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/span_Contact  Adresse")): Object: 'Object Repository/CreationContact/Page_IAD/span_Contact  Adresse' is clicked on
+
+2020-05-20 15:00:51 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_Contact  Adresse' is clicked on
+
+2020-05-20 15:00:51 - [TEST_STEP][PASSED] - Seqphone = Math.random() * 9 - 6: null
+
+2020-05-20 15:00:51 - [TEST_STEP][PASSED] - ifseq = Seqphone: null
+
+2020-05-20 15:00:51 - [TEST_STEP][PASSED] - if (ifseq == 0): null
+
+2020-05-20 15:00:51 - [TEST_STEP][PASSED] - else: null
+
+2020-05-20 15:00:51 - [TEST_STEP][PASSED] - phoneseq1 = Seqphone * 10000000: null
+
+2020-05-20 15:00:51 - [TEST_STEP][PASSED] - phone = phoneseq1: null
+
+2020-05-20 15:00:51 - [TEST_STEP][PASSED] - println(phone): null
+
+2020-05-20 15:00:51 - [TEST_STEP][PASSED] - phone1 = "06" + phone: null
+
+2020-05-20 15:00:51 - [TEST_STEP][PASSED] - println(phone1): null
+
+2020-05-20 15:00:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Tlphone_phone2"), phone1): Text '0610661062' is set on object 'Object Repository/CreationContact/Page_IAD/input_Tlphone_phone2'
+
+2020-05-20 15:00:56 - [MESSAGE][PASSED] - Text '0610661062' is set on object 'Object Repository/CreationContact/Page_IAD/input_Tlphone_phone2'
+
+2020-05-20 15:00:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/span_Ajouter un tlphone_fa fa-plus")): Object: 'Object Repository/CreationContact/Page_IAD/span_Ajouter un tlphone_fa fa-plus' is clicked on
+
+2020-05-20 15:00:59 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_Ajouter un tlphone_fa fa-plus' is clicked on
+
+2020-05-20 15:00:59 - [TEST_STEP][PASSED] - phone2 = "01" + phone: null
+
+2020-05-20 15:00:59 - [TEST_STEP][PASSED] - println(phone2): null
+
+2020-05-20 15:00:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Tlphone_phone4"), phone2): Text '0110661062' is set on object 'Object Repository/CreationContact/Page_IAD/input_Tlphone_phone4'
+
+2020-05-20 15:01:03 - [MESSAGE][PASSED] - Text '0110661062' is set on object 'Object Repository/CreationContact/Page_IAD/input_Tlphone_phone4'
+
+2020-05-20 15:01:03 - [TEST_STEP][PASSED] - email1 = "test6." + phone + "@gmail.com": null
+
+2020-05-20 15:01:03 - [TEST_STEP][PASSED] - println(email1): null
+
+2020-05-20 15:01:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_E-mail personnel_emailPersonal-3"), email1): Text 'test6.10661062@gmail.com' is set on object 'Object Repository/CreationContact/Page_IAD/input_E-mail personnel_emailPersonal-3'
+
+2020-05-20 15:01:09 - [MESSAGE][PASSED] - Text 'test6.10661062@gmail.com' is set on object 'Object Repository/CreationContact/Page_IAD/input_E-mail personnel_emailPersonal-3'
+
+2020-05-20 15:01:09 - [TEST_STEP][PASSED] - click(findTestObject("CreationContact/Page_IAD/button_Ajouter un email_btn btn-primary btn-add")): Object: 'Object Repository/CreationContact/Page_IAD/button_Ajouter un email_btn btn-primary btn-add' is clicked on
+
+2020-05-20 15:01:11 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/button_Ajouter un email_btn btn-primary btn-add' is clicked on
+
+2020-05-20 15:01:11 - [TEST_STEP][PASSED] - email2 = "test7." + phone + "@gmail.com": null
+
+2020-05-20 15:01:11 - [TEST_STEP][PASSED] - println(email2): null
+
+2020-05-20 15:01:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_E-mail personnel_emailPersonal-5"), email2): Text 'test7.10661062@gmail.com' is set on object 'Object Repository/CreationContact/Page_IAD/input_E-mail personnel_emailPersonal-5'
+
+2020-05-20 15:01:17 - [MESSAGE][PASSED] - Text 'test7.10661062@gmail.com' is set on object 'Object Repository/CreationContact/Page_IAD/input_E-mail personnel_emailPersonal-5'
+
+2020-05-20 15:01:17 - [TEST_STEP][PASSED] - click(findTestObject("CreationContact/Page_Welcome page/Page_IAD/span_FRANCE")): Object: 'Object Repository/CreationContact/Page_Welcome page/Page_IAD/span_FRANCE' is clicked on
+
+2020-05-20 15:01:20 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_Welcome page/Page_IAD/span_FRANCE' is clicked on
+
+2020-05-20 15:01:20 - [TEST_STEP][PASSED] - setText(findTestObject("CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae"), "France"): Text 'France' is set on object 'Object Repository/CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae'
+
+2020-05-20 15:01:26 - [MESSAGE][PASSED] - Text 'France' is set on object 'Object Repository/CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae'
+
+2020-05-20 15:01:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-05-20 15:01:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-05-20 15:01:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae'
+
+2020-05-20 15:01:29 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae'
+
+2020-05-20 15:01:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae"), Keys.chord(INSERT)): Keys 'INSERT + ' sent to object: 'Object Repository/CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae'
+
+2020-05-20 15:01:31 - [MESSAGE][PASSED] - Keys 'INSERT + ' sent to object: 'Object Repository/CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae'
+
+2020-05-20 15:01:31 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-05-20 15:01:35 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-05-20 15:01:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Adresse_address1"), "a"): Text 'a' is set on object 'Object Repository/CreationContact/Page_IAD/input_Adresse_address1'
+
+2020-05-20 15:01:40 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/CreationContact/Page_IAD/input_Adresse_address1'
+
+2020-05-20 15:01:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-05-20 15:01:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-05-20 15:01:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("CreationContact/Page_IAD/input_Adresse_address1"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/CreationContact/Page_IAD/input_Adresse_address1'
+
+2020-05-20 15:01:43 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/CreationContact/Page_IAD/input_Adresse_address1'
+
+2020-05-20 15:01:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("CreationContact/Page_IAD/input_Adresse_address1"), Keys.chord(INSERT)): Keys 'INSERT + ' sent to object: 'Object Repository/CreationContact/Page_IAD/input_Adresse_address1'
+
+2020-05-20 15:01:45 - [MESSAGE][PASSED] - Keys 'INSERT + ' sent to object: 'Object Repository/CreationContact/Page_IAD/input_Adresse_address1'
+
+2020-05-20 15:01:45 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-20 15:01:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-20 15:01:50 - [TEST_STEP][PASSED] - adressContac = getAttribute(findTestObject("Object Repository/CreationContact/Page_IAD/input_Adresse_address1"), "value"): Attribute 'value' of object 'Object Repository/CreationContact/Page_IAD/input_Adresse_address1' is: 'Angers, France'
+
+2020-05-20 15:01:51 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/CreationContact/Page_IAD/input_Adresse_address1' is: 'Angers, France'
+
+2020-05-20 15:01:51 - [TEST_STEP][PASSED] - adressContact = adressContac: null
+
+2020-05-20 15:01:51 - [TEST_STEP][PASSED] - println(adressContact): null
+
+2020-05-20 15:01:51 - [TEST_STEP][PASSED] - click(findTestObject("CreationContact/Page_IAD/span_Enregistrer le contact")): Object: 'Object Repository/CreationContact/Page_IAD/span_Enregistrer le contact' is clicked on
+
+2020-05-20 15:01:53 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_Enregistrer le contact' is clicked on
+
+2020-05-20 15:01:53 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2020-05-20 15:02:01 - [MESSAGE][PASSED] - Delayed 8 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Projet" time="44.63" classname="Test Cases/Projet" status="PASSED">
+         <system-out><![CDATA[2020-05-20 15:02:01 - [TEST_CASE][PASSED] - Test Cases/Projet: Test Cases/Projet
+
+2020-05-20 15:02:01 - [TEST_STEP][PASSED] - click(findTestObject("CreationContact/Page_IAD/a_Myiad acqureurs")): Object: 'Object Repository/CreationContact/Page_IAD/a_Myiad acqureurs' is clicked on
+
+2020-05-20 15:02:04 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/a_Myiad acqureurs' is clicked on
+
+2020-05-20 15:02:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-20 15:02:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-20 15:02:07 - [TEST_STEP][PASSED] - click(findTestObject("Creation_projet/Page_IAD (1)/span_Crer")): Object: 'Object Repository/Creation_projet/Page_IAD (1)/span_Crer' is clicked on
+
+2020-05-20 15:02:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation_projet/Page_IAD (1)/span_Crer' is clicked on
+
+2020-05-20 15:02:09 - [TEST_STEP][PASSED] - click(findTestObject("Creation_projet/Page_IAD (1)/button_Achat")): Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Achat' is clicked on
+
+2020-05-20 15:02:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Achat' is clicked on
+
+2020-05-20 15:02:13 - [TEST_STEP][PASSED] - click(findTestObject("Creation_projet/Page_IAD (1)/button_Habitation")): Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Habitation' is clicked on
+
+2020-05-20 15:02:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Habitation' is clicked on
+
+2020-05-20 15:02:15 - [TEST_STEP][PASSED] - click(findTestObject("Creation_projet/Page_IAD (1)/button_Traditionnel")): Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Traditionnel' is clicked on
+
+2020-05-20 15:02:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Traditionnel' is clicked on
+
+2020-05-20 15:02:18 - [TEST_STEP][PASSED] - click(findTestObject("Creation_projet/Page_IAD (1)/button_Maison")): Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Maison' is clicked on
+
+2020-05-20 15:02:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Maison' is clicked on
+
+2020-05-20 15:02:21 - [TEST_STEP][PASSED] - setText(findTestObject("Creation_projet/Page_Welcome page/Page_IAD/input_Lier  un contact_search"), firstname): Text 'test176' is set on object 'Object Repository/Creation_projet/Page_Welcome page/Page_IAD/input_Lier  un contact_search'
+
+2020-05-20 15:02:26 - [MESSAGE][PASSED] - Text 'test176' is set on object 'Object Repository/Creation_projet/Page_Welcome page/Page_IAD/input_Lier  un contact_search'
+
+2020-05-20 15:02:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-05-20 15:02:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-05-20 15:02:28 - [TEST_STEP][PASSED] - click(findTestObject("Creation_projet/Page_Welcome page/Page_IAD/a_Chabanne AFGOUN DAMMARIE-LES-LYS")): Object: 'Object Repository/Creation_projet/Page_Welcome page/Page_IAD/a_Chabanne AFGOUN DAMMARIE-LES-LYS' is clicked on
+
+2020-05-20 15:02:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation_projet/Page_Welcome page/Page_IAD/a_Chabanne AFGOUN DAMMARIE-LES-LYS' is clicked on
+
+2020-05-20 15:02:30 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2020-05-20 15:02:36 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2020-05-20 15:02:36 - [TEST_STEP][PASSED] - click(findTestObject("Creation_projet/Page_IAD (1)/span_tape suivante")): Object: 'Object Repository/Creation_projet/Page_IAD (1)/span_tape suivante' is clicked on
+
+2020-05-20 15:02:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation_projet/Page_IAD (1)/span_tape suivante' is clicked on
+
+2020-05-20 15:02:38 - [TEST_STEP][PASSED] - click(findTestObject("Creation_projet/Page_IAD (1)/button_Enregistrer et quitter")): Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Enregistrer et quitter' is clicked on
+
+2020-05-20 15:02:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Enregistrer et quitter' is clicked on
+
+2020-05-20 15:02:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Creation_projet/Page_IAD/div_Projet cr avec succs"), 0): Object 'Object Repository/Creation_projet/Page_IAD/div_Projet cr avec succs' is present
+
+2020-05-20 15:02:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 15:02:46 - [MESSAGE][PASSED] - Object 'Object Repository/Creation_projet/Page_IAD/div_Projet cr avec succs' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IA-integration" time="121.572" classname="Test Cases/IA-integration" status="PASSED">
+         <system-out><![CDATA[2020-05-20 15:02:46 - [TEST_CASE][PASSED] - Test Cases/IA-integration: Test Cases/IA-integration
+
+2020-05-20 15:02:46 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Création projet"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Création projet"), [:], STOP_ON_FAILURE)
+
+2020-05-20 15:02:46 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Création projet"), [:], STOP_ON_FAILURE)
+
+2020-05-20 15:02:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creation IA/Page_IAD/div_1474169Projet  Emelie02042020 AchatHabi_9dbb01")): Object: 'Object Repository/Creation IA/Page_IAD/div_1474169Projet  Emelie02042020 AchatHabi_9dbb01' is clicked on
+
+2020-05-20 15:02:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation IA/Page_IAD/div_1474169Projet  Emelie02042020 AchatHabi_9dbb01' is clicked on
+
+2020-05-20 15:02:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creation IA/Page_IAD/div_Filtres_iad-list-item-title")): Object: 'Object Repository/Creation IA/Page_IAD/div_Filtres_iad-list-item-title' is clicked on
+
+2020-05-20 15:02:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation IA/Page_IAD/div_Filtres_iad-list-item-title' is clicked on
+
+2020-05-20 15:02:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creation IA/Page_IAD/i_Parking_iad-nav-item-icon business_indica_151f79")): Object: 'Object Repository/Creation IA/Page_IAD/i_Parking_iad-nav-item-icon business_indica_151f79' is clicked on
+
+2020-05-20 15:02:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation IA/Page_IAD/i_Parking_iad-nav-item-icon business_indica_151f79' is clicked on
+
+2020-05-20 15:02:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creation IA/Page_IAD/button_Indication daffaires")): Object: 'Object Repository/Creation IA/Page_IAD/button_Indication daffaires' is clicked on
+
+2020-05-20 15:03:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation IA/Page_IAD/button_Indication daffaires' is clicked on
+
+2020-05-20 15:03:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creation IA/Page_IAD/span_2")): Object: 'Object Repository/Creation IA/Page_IAD/span_2' is clicked on
+
+2020-05-20 15:03:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation IA/Page_IAD/span_2' is clicked on
+
+2020-05-20 15:03:56 - [TEST_STEP][PASSED] - M = Math.random() * 9 - 6: null
+
+2020-05-20 15:03:56 - [TEST_STEP][PASSED] - M1 = M: null
+
+2020-05-20 15:03:56 - [TEST_STEP][PASSED] - if (M1 == 0): null
+
+2020-05-20 15:03:56 - [TEST_STEP][PASSED] - else: null
+
+2020-05-20 15:03:56 - [TEST_STEP][PASSED] - M2 = M1 * 1000000: null
+
+2020-05-20 15:03:56 - [TEST_STEP][PASSED] - MontantRet = $M2: null
+
+2020-05-20 15:03:56 - [TEST_STEP][PASSED] - MontantRetro = MontantRet: null
+
+2020-05-20 15:03:56 - [TEST_STEP][PASSED] - println(MontantRetro): null
+
+2020-05-20 15:03:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Creation IA/Page_IAD/input_MONTANT DU PRT_mat-input-0"), MontantRetro): Text '1000000' is set on object 'Object Repository/Creation IA/Page_IAD/input_MONTANT DU PRT_mat-input-0'
+
+2020-05-20 15:04:00 - [MESSAGE][PASSED] - Text '1000000' is set on object 'Object Repository/Creation IA/Page_IAD/input_MONTANT DU PRT_mat-input-0'
+
+2020-05-20 15:04:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creation IA/Page_IAD/span_Suivant")): Object: 'Object Repository/Creation IA/Page_IAD/span_Suivant' is clicked on
+
+2020-05-20 15:04:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation IA/Page_IAD/span_Suivant' is clicked on
+
+2020-05-20 15:04:03 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2020-05-20 15:04:09 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2020-05-20 15:04:09 - [TEST_STEP][PASSED] - setText(findTestObject("Creation IA/Page_IAD/Page_IAD/input_Entrer un CP ou une ville_mat-input-12"), "@ZIMUT"): Text '@ZIMUT' is set on object 'Object Repository/Creation IA/Page_IAD/Page_IAD/input_Entrer un CP ou une ville_mat-input-12'
+
+2020-05-20 15:04:13 - [MESSAGE][PASSED] - Text '@ZIMUT' is set on object 'Object Repository/Creation IA/Page_IAD/Page_IAD/input_Entrer un CP ou une ville_mat-input-12'
+
+2020-05-20 15:04:13 - [TEST_STEP][PASSED] - check(findTestObject("Creation IA/Page_IAD/Page_IAD/div_Entrer un nom_mat-checkbox-inner-container")): Object 'Object Repository/Creation IA/Page_IAD/Page_IAD/div_Entrer un nom_mat-checkbox-inner-container' is checked
+
+2020-05-20 15:04:17 - [MESSAGE][PASSED] - Object 'Object Repository/Creation IA/Page_IAD/Page_IAD/div_Entrer un nom_mat-checkbox-inner-container' is checked
+
+2020-05-20 15:04:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Creation IA/Page_IAD/Page_IAD/h3_BANK 19089275"), "@ZIMUT"): Actual text and expected text of test object 'Object Repository/Creation IA/Page_IAD/Page_IAD/h3_BANK 19089275' are matched.
+
+2020-05-20 15:04:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Creation IA/Page_IAD/Page_IAD/h3_BANK 19089275' are matched.
+
+2020-05-20 15:04:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creation IA/Page_IAD/span_Choisir un contact")): Object: 'Object Repository/Creation IA/Page_IAD/span_Choisir un contact' is clicked on
+
+2020-05-20 15:04:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation IA/Page_IAD/span_Choisir un contact' is clicked on
+
+2020-05-20 15:04:22 - [TEST_STEP][PASSED] - click(findTestObject("Creation IA/Page_IAD/Page_IAD/span_En Najjary 39851439 Nezha39851439  (Angers France )")): Object: 'Object Repository/Creation IA/Page_IAD/Page_IAD/span_En Najjary 39851439 Nezha39851439  (Angers France )' is clicked on
+
+2020-05-20 15:04:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation IA/Page_IAD/Page_IAD/span_En Najjary 39851439 Nezha39851439  (Angers France )' is clicked on
+
+2020-05-20 15:04:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creation IA/Page_IAD/span_Valider")): Object: 'Object Repository/Creation IA/Page_IAD/span_Valider' is clicked on
+
+2020-05-20 15:04:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation IA/Page_IAD/span_Valider' is clicked on
+
+2020-05-20 15:04:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Creation IA/Page_IAD/span_Confirmer"), 0): Object 'Object Repository/Creation IA/Page_IAD/span_Confirmer' is present
+
+2020-05-20 15:04:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 15:04:33 - [MESSAGE][PASSED] - Object 'Object Repository/Creation IA/Page_IAD/span_Confirmer' is present
+
+2020-05-20 15:04:33 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Creation IA/Page_IAD/span_Confirmer")): Object 'Object Repository/Creation IA/Page_IAD/span_Confirmer' is clickable
+
+2020-05-20 15:04:33 - [MESSAGE][PASSED] - Object 'Object Repository/Creation IA/Page_IAD/span_Confirmer' is clickable
+
+2020-05-20 15:04:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creation IA/Page_IAD/span_Confirmer")): Object: 'Object Repository/Creation IA/Page_IAD/span_Confirmer' is clicked on
+
+2020-05-20 15:04:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation IA/Page_IAD/span_Confirmer' is clicked on
+
+2020-05-20 15:04:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creation IA/Page_IAD/i_Parking_iad-nav-item-icon business_indica_151f79")): Object: 'Object Repository/Creation IA/Page_IAD/i_Parking_iad-nav-item-icon business_indica_151f79' is clicked on
+
+2020-05-20 15:04:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation IA/Page_IAD/i_Parking_iad-nav-item-icon business_indica_151f79' is clicked on
+
+2020-05-20 15:04:43 - [TEST_STEP][PASSED] - click(findTestObject("Creation IA/Page_IAD/strong_Test106 Nezha - 16888 - 05052020")): Object: 'Object Repository/Creation IA/Page_IAD/strong_Test106 Nezha - 16888 - 05052020' is clicked on
+
+2020-05-20 15:04:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation IA/Page_IAD/strong_Test106 Nezha - 16888 - 05052020' is clicked on
+
+2020-05-20 15:04:46 - [TEST_STEP][PASSED] - test2 = getText(findTestObject("Creation IA/Page_IAD/strong_Test106 Nezha - 16888 - 05052020")): Text of object 'Object Repository/Creation IA/Page_IAD/strong_Test106 Nezha - 16888 - 05052020' is: 'Test1176 Test176 - 16950 - 20/05/2020 :'
+
+2020-05-20 15:04:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/Creation IA/Page_IAD/strong_Test106 Nezha - 16888 - 05052020' is: 'Test1176 Test176 - 16950 - 20/05/2020 :'
+
+2020-05-20 15:04:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Creation IA/Page_IAD/Page_IAD/strong_Statut En cours"), "Statut: En cours"): Actual text and expected text of test object 'Object Repository/Creation IA/Page_IAD/Page_IAD/strong_Statut En cours' are matched.
+
+2020-05-20 15:04:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Creation IA/Page_IAD/Page_IAD/strong_Statut En cours' are matched.
+
+2020-05-20 15:04:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-20 15:04:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-20 14:58:36 - [TEST_SUITE][PASSED] - Integration-IA-Contact: Test Cases/IA-integration]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

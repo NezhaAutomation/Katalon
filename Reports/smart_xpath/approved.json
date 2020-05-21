@@ -1,0 +1,39 @@
+{
+  "brokenTestObjects" : [ {
+    "approved" : true,
+    "proposedXPath" : "(.//*[normalize-space(text()) and normalize-space(.)='Achat'])[1]/following::li[1]",
+    "testObjectId" : "Object Repository/CreationIA/Page_IAD/li_Entreprise  Commerce",
+    "brokenXPath" : "//div[@id='stepper1']/div[2]/div[2]/div[2]/div[2]/ui-view/iad-my-iad-project-create-use/iad-category-picker/div/div/div/div/iad-category-picker-list/ul/li",
+    "pathToScreenshot" : ""
+  }, {
+    "approved" : true,
+    "proposedXPath" : "(.//*[normalize-space(text()) and normalize-space(.)='Afficher'])[1]/following::span[2]",
+    "testObjectId" : "Object Repository/Creation_projet/Page_IAD/span_Crer",
+    "brokenXPath" : "//div[@id='iad-goto-top']/div/div[2]/iad-content-body/iad-my-iad-project/ui-view/iad-agent-my-iad-project-list-page/div/div/div[2]/button/span",
+    "pathToScreenshot" : "C:/Users/nezha.e/git/Katalon/Reports/smart_xpath/Object Repository/Creation_projet/Page_IAD/span_Crer_neighbor_0.png"
+  }, {
+    "approved" : true,
+    "proposedXPath" : "(.//*[normalize-space(text()) and normalize-space(.)='Identité'])[1]/following::div[7]",
+    "testObjectId" : "Object Repository/Page_IAD/div_Civilit Madame   PrnomNomNom dusageNom _a423ac",
+    "brokenXPath" : "//div[@id='accordiongroup-1381-2989-panel']/div/iad-my-iad-accordion-group-body/div/ng-transclude/div/iad-my-iad-contact-identity-form/div/div/div",
+    "pathToScreenshot" : ""
+  }, {
+    "approved" : true,
+    "proposedXPath" : "//a[contains(text(),'Myiad acquéreurs')]",
+    "testObjectId" : "Object Repository/Creation_projet/Page_IAD/a_Myiad acqureurs",
+    "brokenXPath" : "",
+    "pathToScreenshot" : "C:/Users/nezha.e/git/Katalon/Reports/smart_xpath/Object Repository/Creation_projet/Page_IAD/a_Myiad acqureurs_neighbor_1.png"
+  }, {
+    "approved" : true,
+    "proposedXPath" : "//ul[@id='iad-menu']/li[3]/ul/li[7]/a",
+    "testObjectId" : "Object Repository/Creation_projet/Page_IAD/a_Myiad acqureurs",
+    "brokenXPath" : "",
+    "pathToScreenshot" : "C:/Users/nezha.e/git/Katalon/Reports/smart_xpath/Object Repository/Creation_projet/Page_IAD/a_Myiad acqureurs_idRelative.png"
+  }, {
+    "approved" : true,
+    "proposedXPath" : "//a[contains(text(),'Myiad acquéreurs')]",
+    "testObjectId" : "Object Repository/Creation_projet/Page_IAD/a_Myiad acqureurs",
+    "brokenXPath" : "",
+    "pathToScreenshot" : "C:/Users/nezha.e/git/Katalon/Reports/smart_xpath/Object Repository/Creation_projet/Page_IAD/a_Myiad acqureurs_link.png"
+  } ]
+}

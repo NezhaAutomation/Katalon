@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Integration-IA-Contact" time="576.555" tests="3" failures="1" errors="0">
+   <testsuite name="Integration-IA-Contact" tests="3" failures="1" errors="0" time="576.555" timestamp="2020-05-21 14:55:26" hostname="nezha.e - DESKTOP-9BRT4J2" id="Test Suites/Integration-IA-Contact">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\nezha.e\\Desktop\\Katalon\\Reports\\20200521_145524\\Integration-IA-Contact\\20200521_145524"/>
+         <property name="logFiles" value="C:\\Users\\nezha.e\\Desktop\\Katalon\\Reports\\20200521_145524\\Integration-IA-Contact\\20200521_145524\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\nezha.e\\Desktop\\Katalon\\Reports\\20200521_145524\\Integration-IA-Contact\\20200521_145524\\1590073501813.png"/>
+         <property name="hostName" value="nezha.e - DESKTOP-9BRT4J2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.4.0.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="192.168.0.107"/>
+         <property name="sessionId" value="2e537ef25f4e3ef4a63ac28947491487"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Contact" time="212.877" classname="Test Cases/Contact" status="PASSED">
+         <system-out><![CDATA[2020-05-21 14:55:27 - [TEST_CASE][PASSED] - Test Cases/Contact: Test Cases/Contact
+
+2020-05-21 14:55:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-21 14:55:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-21 14:55:27 - [MESSAGE][INFO] - Action delay is set to 2 000 milliseconds
+
+2020-05-21 14:55:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-21 14:55:32 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'http://p13.demo.iadholding.com' successfully
+
+2020-05-21 14:55:35 - [MESSAGE][PASSED] - Navigate to 'http://p13.demo.iadholding.com' successfully
+
+2020-05-21 14:55:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_Welcome page/button_Accder")): Object: 'Object Repository/CreationContact/Page_Welcome page/button_Accder' is clicked on
+
+2020-05-21 14:55:42 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_Welcome page/button_Accder' is clicked on
+
+2020-05-21 14:55:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Identifiant_username"), usernameConseiller): Text '293@iadfrance.fr' is set on object 'Object Repository/CreationContact/Page_IAD/input_Identifiant_username'
+
+2020-05-21 14:55:47 - [MESSAGE][PASSED] - Text '293@iadfrance.fr' is set on object 'Object Repository/CreationContact/Page_IAD/input_Identifiant_username'
+
+2020-05-21 14:55:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Mot de passe_password"), mp): Text ****** has been set on object 'Object Repository/CreationContact/Page_IAD/input_Mot de passe_password'
+
+2020-05-21 14:55:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/CreationContact/Page_IAD/input_Mot de passe_password'
+
+2020-05-21 14:55:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/input_Mot de passe_submit")): Object: 'Object Repository/CreationContact/Page_IAD/input_Mot de passe_submit' is clicked on
+
+2020-05-21 14:56:04 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/input_Mot de passe_submit' is clicked on
+
+2020-05-21 14:56:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/button_Dmarrer")): Object: 'Object Repository/CreationContact/Page_IAD/button_Dmarrer' is clicked on
+
+2020-05-21 14:56:07 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/button_Dmarrer' is clicked on
+
+2020-05-21 14:56:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/div_Quitter")): Object: 'Object Repository/CreationContact/Page_IAD/div_Quitter' is clicked on
+
+2020-05-21 14:56:10 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/div_Quitter' is clicked on
+
+2020-05-21 14:56:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/a_Production")): Object: 'Object Repository/CreationContact/Page_IAD/a_Production' is clicked on
+
+2020-05-21 14:56:13 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/a_Production' is clicked on
+
+2020-05-21 14:56:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/a_Myiad contacts")): Object: 'Object Repository/CreationContact/Page_IAD/a_Myiad contacts' is clicked on
+
+2020-05-21 14:56:41 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/a_Myiad contacts' is clicked on
+
+2020-05-21 14:56:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/button_Crer")): Object: 'Object Repository/CreationContact/Page_IAD/button_Crer' is clicked on
+
+2020-05-21 14:56:51 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/button_Crer' is clicked on
+
+2020-05-21 14:56:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/div_Nouveau contact_myiad-avatar")): Object: 'Object Repository/CreationContact/Page_IAD/div_Nouveau contact_myiad-avatar' is clicked on
+
+2020-05-21 14:56:53 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/div_Nouveau contact_myiad-avatar' is clicked on
+
+2020-05-21 14:56:53 - [TEST_STEP][PASSED] - Seq5 = Math.random() * 9 - 6: null
+
+2020-05-21 14:56:53 - [TEST_STEP][PASSED] - seq55 = Seq5 * 100: null
+
+2020-05-21 14:56:53 - [TEST_STEP][PASSED] - jdcontact = seq55: null
+
+2020-05-21 14:56:53 - [TEST_STEP][PASSED] - jdcont = $jdcontact: null
+
+2020-05-21 14:56:53 - [TEST_STEP][PASSED] - firstname = "test" + jdcont: null
+
+2020-05-21 14:56:53 - [TEST_STEP][PASSED] - println(firstname): null
+
+2020-05-21 14:56:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Prnom_firstName"), firstname): Text 'test237' is set on object 'Object Repository/CreationContact/Page_IAD/input_Prnom_firstName'
+
+2020-05-21 14:56:58 - [MESSAGE][PASSED] - Text 'test237' is set on object 'Object Repository/CreationContact/Page_IAD/input_Prnom_firstName'
+
+2020-05-21 14:56:58 - [TEST_STEP][PASSED] - lastname = "test1" + jdcont: null
+
+2020-05-21 14:56:58 - [TEST_STEP][PASSED] - println(lastname): null
+
+2020-05-21 14:56:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Nom_lastName"), lastname): Text 'test1237' is set on object 'Object Repository/CreationContact/Page_IAD/input_Nom_lastName'
+
+2020-05-21 14:57:03 - [MESSAGE][PASSED] - Text 'test1237' is set on object 'Object Repository/CreationContact/Page_IAD/input_Nom_lastName'
+
+2020-05-21 14:57:03 - [TEST_STEP][PASSED] - usedname = "test3" + jdcont: null
+
+2020-05-21 14:57:03 - [TEST_STEP][PASSED] - println(usedname): null
+
+2020-05-21 14:57:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_concat(Nom d  usage)_usageName"), usedname): Text 'test3237' is set on object 'Object Repository/CreationContact/Page_IAD/input_concat(Nom d  usage)_usageName'
+
+2020-05-21 14:57:08 - [MESSAGE][PASSED] - Text 'test3237' is set on object 'Object Repository/CreationContact/Page_IAD/input_concat(Nom d  usage)_usageName'
+
+2020-05-21 14:57:08 - [TEST_STEP][PASSED] - jeunefille = "test4" + jdcont: null
+
+2020-05-21 14:57:08 - [TEST_STEP][PASSED] - println(jeunefille): null
+
+2020-05-21 14:57:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Nom de jeune fille_birthName"), jeunefille): Text 'test4237' is set on object 'Object Repository/CreationContact/Page_IAD/input_Nom de jeune fille_birthName'
+
+2020-05-21 14:57:13 - [MESSAGE][PASSED] - Text 'test4237' is set on object 'Object Repository/CreationContact/Page_IAD/input_Nom de jeune fille_birthName'
+
+2020-05-21 14:57:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/input_Date de naissance_birthDate")): Object: 'Object Repository/CreationContact/Page_IAD/input_Date de naissance_birthDate' is clicked on
+
+2020-05-21 14:57:16 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/input_Date de naissance_birthDate' is clicked on
+
+2020-05-21 14:57:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/span_13")): Object: 'Object Repository/CreationContact/Page_IAD/span_13' is clicked on
+
+2020-05-21 14:57:18 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_13' is clicked on
+
+2020-05-21 14:57:18 - [TEST_STEP][PASSED] - datebirth = getAttribute(findTestObject("CreationContact/Page_IAD/input_Date de naissance_birthDate"), "value"): Attribute 'value' of object 'Object Repository/CreationContact/Page_IAD/input_Date de naissance_birthDate' is: '13/05/2020'
+
+2020-05-21 14:57:19 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/CreationContact/Page_IAD/input_Date de naissance_birthDate' is: '13/05/2020'
+
+2020-05-21 14:57:19 - [TEST_STEP][PASSED] - DateNaissance = datebirth: null
+
+2020-05-21 14:57:19 - [TEST_STEP][PASSED] - println(DateNaissance): null
+
+2020-05-21 14:57:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/span_Lieu de naissance_btn btn-default form_bf2c5d")): Object: 'Object Repository/CreationContact/Page_IAD/span_Lieu de naissance_btn btn-default form_bf2c5d' is clicked on
+
+2020-05-21 14:57:21 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_Lieu de naissance_btn btn-default form_bf2c5d' is clicked on
+
+2020-05-21 14:57:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/span_02")): Object: 'Object Repository/CreationContact/Page_IAD/span_02' is clicked on
+
+2020-05-21 14:57:24 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_02' is clicked on
+
+2020-05-21 14:57:24 - [TEST_STEP][PASSED] - lieuBirth = "test5" + jdcont: null
+
+2020-05-21 14:57:24 - [TEST_STEP][PASSED] - println(lieuBirth): null
+
+2020-05-21 14:57:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Lieu de naissance_birthPlace"), lieuBirth): Text 'test5237' is set on object 'Object Repository/CreationContact/Page_IAD/input_Lieu de naissance_birthPlace'
+
+2020-05-21 14:57:29 - [MESSAGE][PASSED] - Text 'test5237' is set on object 'Object Repository/CreationContact/Page_IAD/input_Lieu de naissance_birthPlace'
+
+2020-05-21 14:57:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/span_Choisir")): Object: 'Object Repository/CreationContact/Page_IAD/span_Choisir' is clicked on
+
+2020-05-21 14:57:32 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_Choisir' is clicked on
+
+2020-05-21 14:57:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Choisir_form-control ui-select-search_780576"), "France"): Text 'France' is set on object 'Object Repository/CreationContact/Page_IAD/input_Choisir_form-control ui-select-search_780576'
+
+2020-05-21 14:57:38 - [MESSAGE][PASSED] - Text 'France' is set on object 'Object Repository/CreationContact/Page_IAD/input_Choisir_form-control ui-select-search_780576'
+
+2020-05-21 14:57:38 - [TEST_STEP][PASSED] - pays1 = getText(findTestObject("CreationContact/Page_IAD/span_FRANCE")): Text of object 'Object Repository/CreationContact/Page_IAD/span_FRANCE' is: 'FRANCE'
+
+2020-05-21 14:57:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/CreationContact/Page_IAD/span_FRANCE' is: 'FRANCE'
+
+2020-05-21 14:57:39 - [TEST_STEP][PASSED] - click(findTestObject("CreationContact/Page_IAD/span_FRANCE")): Object: 'Object Repository/CreationContact/Page_IAD/span_FRANCE' is clicked on
+
+2020-05-21 14:57:41 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_FRANCE' is clicked on
+
+2020-05-21 14:57:41 - [TEST_STEP][PASSED] - pays = pays1: null
+
+2020-05-21 14:57:41 - [TEST_STEP][PASSED] - println(pays): null
+
+2020-05-21 14:57:41 - [TEST_STEP][PASSED] - profession = "test8" + jdcont: null
+
+2020-05-21 14:57:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Profession_job"), profession): Text 'test8237' is set on object 'Object Repository/CreationContact/Page_IAD/input_Profession_job'
+
+2020-05-21 14:57:46 - [MESSAGE][PASSED] - Text 'test8237' is set on object 'Object Repository/CreationContact/Page_IAD/input_Profession_job'
+
+2020-05-21 14:57:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/span_Contact  Adresse")): Object: 'Object Repository/CreationContact/Page_IAD/span_Contact  Adresse' is clicked on
+
+2020-05-21 14:57:49 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_Contact  Adresse' is clicked on
+
+2020-05-21 14:57:49 - [TEST_STEP][PASSED] - Seqphone = Math.random() * 9 - 6: null
+
+2020-05-21 14:57:49 - [TEST_STEP][PASSED] - ifseq = Seqphone: null
+
+2020-05-21 14:57:49 - [TEST_STEP][PASSED] - if (ifseq == 0): null
+
+2020-05-21 14:57:49 - [TEST_STEP][PASSED] - phoneseq1 = Seqphone * 100000000: null
+
+2020-05-21 14:57:49 - [TEST_STEP][PASSED] - phone = phoneseq1: null
+
+2020-05-21 14:57:49 - [TEST_STEP][PASSED] - println(phone): null
+
+2020-05-21 14:57:49 - [TEST_STEP][PASSED] - phone1 = "06" + phone: null
+
+2020-05-21 14:57:49 - [TEST_STEP][PASSED] - println(phone1): null
+
+2020-05-21 14:57:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Tlphone_phone2"), phone1): Text '0680706705' is set on object 'Object Repository/CreationContact/Page_IAD/input_Tlphone_phone2'
+
+2020-05-21 14:57:54 - [MESSAGE][PASSED] - Text '0680706705' is set on object 'Object Repository/CreationContact/Page_IAD/input_Tlphone_phone2'
+
+2020-05-21 14:57:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreationContact/Page_IAD/span_Ajouter un tlphone_fa fa-plus")): Object: 'Object Repository/CreationContact/Page_IAD/span_Ajouter un tlphone_fa fa-plus' is clicked on
+
+2020-05-21 14:57:57 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_Ajouter un tlphone_fa fa-plus' is clicked on
+
+2020-05-21 14:57:57 - [TEST_STEP][PASSED] - phone2 = "01" + phone: null
+
+2020-05-21 14:57:57 - [TEST_STEP][PASSED] - println(phone2): null
+
+2020-05-21 14:57:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Tlphone_phone4"), phone2): Text '0180706705' is set on object 'Object Repository/CreationContact/Page_IAD/input_Tlphone_phone4'
+
+2020-05-21 14:58:02 - [MESSAGE][PASSED] - Text '0180706705' is set on object 'Object Repository/CreationContact/Page_IAD/input_Tlphone_phone4'
+
+2020-05-21 14:58:02 - [TEST_STEP][PASSED] - email1 = "test6." + phone + "@gmail.com": null
+
+2020-05-21 14:58:02 - [TEST_STEP][PASSED] - println(email1): null
+
+2020-05-21 14:58:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_E-mail personnel_emailPersonal-3"), email1): Text 'test6.80706705@gmail.com' is set on object 'Object Repository/CreationContact/Page_IAD/input_E-mail personnel_emailPersonal-3'
+
+2020-05-21 14:58:07 - [MESSAGE][PASSED] - Text 'test6.80706705@gmail.com' is set on object 'Object Repository/CreationContact/Page_IAD/input_E-mail personnel_emailPersonal-3'
+
+2020-05-21 14:58:07 - [TEST_STEP][PASSED] - click(findTestObject("CreationContact/Page_IAD/button_Ajouter un email_btn btn-primary btn-add")): Object: 'Object Repository/CreationContact/Page_IAD/button_Ajouter un email_btn btn-primary btn-add' is clicked on
+
+2020-05-21 14:58:10 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/button_Ajouter un email_btn btn-primary btn-add' is clicked on
+
+2020-05-21 14:58:10 - [TEST_STEP][PASSED] - email2 = "test7." + phone + "@gmail.com": null
+
+2020-05-21 14:58:10 - [TEST_STEP][PASSED] - println(email2): null
+
+2020-05-21 14:58:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_E-mail personnel_emailPersonal-5"), email2): Text 'test7.80706705@gmail.com' is set on object 'Object Repository/CreationContact/Page_IAD/input_E-mail personnel_emailPersonal-5'
+
+2020-05-21 14:58:15 - [MESSAGE][PASSED] - Text 'test7.80706705@gmail.com' is set on object 'Object Repository/CreationContact/Page_IAD/input_E-mail personnel_emailPersonal-5'
+
+2020-05-21 14:58:15 - [TEST_STEP][PASSED] - click(findTestObject("CreationContact/Page_Welcome page/Page_IAD/span_FRANCE")): Object: 'Object Repository/CreationContact/Page_Welcome page/Page_IAD/span_FRANCE' is clicked on
+
+2020-05-21 14:58:18 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_Welcome page/Page_IAD/span_FRANCE' is clicked on
+
+2020-05-21 14:58:18 - [TEST_STEP][PASSED] - setText(findTestObject("CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae"), "France"): Text 'France' is set on object 'Object Repository/CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae'
+
+2020-05-21 14:58:24 - [MESSAGE][PASSED] - Text 'France' is set on object 'Object Repository/CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae'
+
+2020-05-21 14:58:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-05-21 14:58:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-05-21 14:58:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae'
+
+2020-05-21 14:58:27 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae'
+
+2020-05-21 14:58:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae"), Keys.chord(INSERT)): Keys 'INSERT + ' sent to object: 'Object Repository/CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae'
+
+2020-05-21 14:58:30 - [MESSAGE][PASSED] - Keys 'INSERT + ' sent to object: 'Object Repository/CreationContact/Page_IAD/input_FRANCE_form-control ui-select-search _8034ae'
+
+2020-05-21 14:58:30 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-05-21 14:58:34 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-05-21 14:58:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreationContact/Page_IAD/input_Adresse_address1"), "a"): Text 'a' is set on object 'Object Repository/CreationContact/Page_IAD/input_Adresse_address1'
+
+2020-05-21 14:58:38 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/CreationContact/Page_IAD/input_Adresse_address1'
+
+2020-05-21 14:58:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-05-21 14:58:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-05-21 14:58:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("CreationContact/Page_IAD/input_Adresse_address1"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/CreationContact/Page_IAD/input_Adresse_address1'
+
+2020-05-21 14:58:41 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/CreationContact/Page_IAD/input_Adresse_address1'
+
+2020-05-21 14:58:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("CreationContact/Page_IAD/input_Adresse_address1"), Keys.chord(INSERT)): Keys 'INSERT + ' sent to object: 'Object Repository/CreationContact/Page_IAD/input_Adresse_address1'
+
+2020-05-21 14:58:44 - [MESSAGE][PASSED] - Keys 'INSERT + ' sent to object: 'Object Repository/CreationContact/Page_IAD/input_Adresse_address1'
+
+2020-05-21 14:58:44 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-21 14:58:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-21 14:58:49 - [TEST_STEP][PASSED] - adressContac = getAttribute(findTestObject("Object Repository/CreationContact/Page_IAD/input_Adresse_address1"), "value"): Attribute 'value' of object 'Object Repository/CreationContact/Page_IAD/input_Adresse_address1' is: 'a'
+
+2020-05-21 14:58:49 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/CreationContact/Page_IAD/input_Adresse_address1' is: 'a'
+
+2020-05-21 14:58:49 - [TEST_STEP][PASSED] - adressContact = adressContac: null
+
+2020-05-21 14:58:49 - [TEST_STEP][PASSED] - println(adressContact): null
+
+2020-05-21 14:58:49 - [TEST_STEP][PASSED] - click(findTestObject("CreationContact/Page_IAD/span_Enregistrer le contact")): Object: 'Object Repository/CreationContact/Page_IAD/span_Enregistrer le contact' is clicked on
+
+2020-05-21 14:58:51 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/span_Enregistrer le contact' is clicked on
+
+2020-05-21 14:58:51 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2020-05-21 14:58:59 - [MESSAGE][PASSED] - Delayed 8 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Projet" time="54.317" classname="Test Cases/Projet" status="PASSED">
+         <system-out><![CDATA[2020-05-21 14:58:59 - [TEST_CASE][PASSED] - Test Cases/Projet: Test Cases/Projet
+
+2020-05-21 14:59:00 - [TEST_STEP][PASSED] - click(findTestObject("CreationContact/Page_IAD/a_Myiad acqureurs")): Object: 'Object Repository/CreationContact/Page_IAD/a_Myiad acqureurs' is clicked on
+
+2020-05-21 14:59:13 - [MESSAGE][PASSED] - Object: 'Object Repository/CreationContact/Page_IAD/a_Myiad acqureurs' is clicked on
+
+2020-05-21 14:59:13 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-21 14:59:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-21 14:59:16 - [TEST_STEP][PASSED] - click(findTestObject("Creation_projet/Page_IAD (1)/span_Crer")): Object: 'Object Repository/Creation_projet/Page_IAD (1)/span_Crer' is clicked on
+
+2020-05-21 14:59:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation_projet/Page_IAD (1)/span_Crer' is clicked on
+
+2020-05-21 14:59:18 - [TEST_STEP][PASSED] - click(findTestObject("Creation_projet/Page_IAD (1)/button_Achat")): Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Achat' is clicked on
+
+2020-05-21 14:59:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Achat' is clicked on
+
+2020-05-21 14:59:22 - [TEST_STEP][PASSED] - click(findTestObject("Creation_projet/Page_IAD (1)/button_Habitation")): Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Habitation' is clicked on
+
+2020-05-21 14:59:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Habitation' is clicked on
+
+2020-05-21 14:59:24 - [TEST_STEP][PASSED] - click(findTestObject("Creation_projet/Page_IAD (1)/button_Traditionnel")): Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Traditionnel' is clicked on
+
+2020-05-21 14:59:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Traditionnel' is clicked on
+
+2020-05-21 14:59:27 - [TEST_STEP][PASSED] - click(findTestObject("Creation_projet/Page_IAD (1)/button_Maison")): Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Maison' is clicked on
+
+2020-05-21 14:59:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Maison' is clicked on
+
+2020-05-21 14:59:30 - [TEST_STEP][PASSED] - setText(findTestObject("Creation_projet/Page_Welcome page/Page_IAD/input_Lier  un contact_search"), firstname): Text 'test237' is set on object 'Object Repository/Creation_projet/Page_Welcome page/Page_IAD/input_Lier  un contact_search'
+
+2020-05-21 14:59:34 - [MESSAGE][PASSED] - Text 'test237' is set on object 'Object Repository/Creation_projet/Page_Welcome page/Page_IAD/input_Lier  un contact_search'
+
+2020-05-21 14:59:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-05-21 14:59:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-05-21 14:59:36 - [TEST_STEP][PASSED] - click(findTestObject("Creation_projet/Page_Welcome page/Page_IAD/a_Chabanne AFGOUN DAMMARIE-LES-LYS")): Object: 'Object Repository/Creation_projet/Page_Welcome page/Page_IAD/a_Chabanne AFGOUN DAMMARIE-LES-LYS' is clicked on
+
+2020-05-21 14:59:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation_projet/Page_Welcome page/Page_IAD/a_Chabanne AFGOUN DAMMARIE-LES-LYS' is clicked on
+
+2020-05-21 14:59:39 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2020-05-21 14:59:45 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2020-05-21 14:59:45 - [TEST_STEP][PASSED] - click(findTestObject("Creation_projet/Page_IAD (1)/span_tape suivante")): Object: 'Object Repository/Creation_projet/Page_IAD (1)/span_tape suivante' is clicked on
+
+2020-05-21 14:59:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation_projet/Page_IAD (1)/span_tape suivante' is clicked on
+
+2020-05-21 14:59:47 - [TEST_STEP][PASSED] - click(findTestObject("Creation_projet/Page_IAD (1)/button_Enregistrer et quitter")): Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Enregistrer et quitter' is clicked on
+
+2020-05-21 14:59:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation_projet/Page_IAD (1)/button_Enregistrer et quitter' is clicked on
+
+2020-05-21 14:59:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Creation_projet/Page_IAD/div_Projet cr avec succs"), 0): Object 'Object Repository/Creation_projet/Page_IAD/div_Projet cr avec succs' is present
+
+2020-05-21 14:59:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-21 14:59:54 - [MESSAGE][PASSED] - Object 'Object Repository/Creation_projet/Page_IAD/div_Projet cr avec succs' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IA-integration" time="308.144" classname="Test Cases/IA-integration" status="FAILED">
+         <failure type="FAILED" message="Test Cases/IA-integration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Acquereur/Page_IAD/mat-icon_Test255_bi-avatar-icon mat-icon notranslate fas fa-plus-circle mat-icon-no-color'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at IA-integration.run(IA-integration:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590072924896.run(TempTestSuite1590072924896.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Acquereur/Page_IAD/mat-icon_Test255_bi-avatar-icon mat-icon notranslate fas fa-plus-circle mat-icon-no-color' located by 'By.xpath: //mat-icon[@class = 'bi-avatar-icon mat-icon notranslate fas fa-plus-circle mat-icon-no-color active' and @fonticon = 'fa-plus-circle' and @ng-reflect-font-set = 'fas' and @ng-reflect-font-icon = 'fa-plus-circle' and @ng-reflect-fx-layout-align = 'center']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-21 14:59:54 - [TEST_CASE][FAILED] - Test Cases/IA-integration: Test Cases/IA-integration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Acquereur/Page_IAD/mat-icon_Test255_bi-avatar-icon mat-icon notranslate fas fa-plus-circle mat-icon-no-color'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at IA-integration.run(IA-integration:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590072924896.run(TempTestSuite1590072924896.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Acquereur/Page_IAD/mat-icon_Test255_bi-avatar-icon mat-icon notranslate fas fa-plus-circle mat-icon-no-color' located by 'By.xpath: //mat-icon[@class = 'bi-avatar-icon mat-icon notranslate fas fa-plus-circle mat-icon-no-color active' and @fonticon = 'fa-plus-circle' and @ng-reflect-font-set = 'fas' and @ng-reflect-font-icon = 'fa-plus-circle' and @ng-reflect-fx-layout-align = 'center']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-21 14:59:54 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Création projet"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Création projet"), [:], STOP_ON_FAILURE)
+
+2020-05-21 14:59:54 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Création projet"), [:], STOP_ON_FAILURE)
+
+2020-05-21 14:59:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creation IA/Page_IAD/div_1474169Projet  Emelie02042020 AchatHabi_9dbb01")): Object: 'Object Repository/Creation IA/Page_IAD/div_1474169Projet  Emelie02042020 AchatHabi_9dbb01' is clicked on
+
+2020-05-21 14:59:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation IA/Page_IAD/div_1474169Projet  Emelie02042020 AchatHabi_9dbb01' is clicked on
+
+2020-05-21 14:59:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creation IA/Page_IAD/div_Filtres_iad-list-item-title")): Object: 'Object Repository/Creation IA/Page_IAD/div_Filtres_iad-list-item-title' is clicked on
+
+2020-05-21 14:59:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation IA/Page_IAD/div_Filtres_iad-list-item-title' is clicked on
+
+2020-05-21 14:59:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creation IA/Page_IAD/i_Parking_iad-nav-item-icon business_indica_151f79")): Object: 'Object Repository/Creation IA/Page_IAD/i_Parking_iad-nav-item-icon business_indica_151f79' is clicked on
+
+2020-05-21 15:00:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation IA/Page_IAD/i_Parking_iad-nav-item-icon business_indica_151f79' is clicked on
+
+2020-05-21 15:00:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Creation IA/Page_IAD/button_Indication daffaires")): Object: 'Object Repository/Creation IA/Page_IAD/button_Indication daffaires' is clicked on
+
+2020-05-21 15:03:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Creation IA/Page_IAD/button_Indication daffaires' is clicked on
+
+2020-05-21 15:03:04 - [TEST_STEP][PASSED] - SeqAcq = Math.random() * 9 - 6: null
+
+2020-05-21 15:03:04 - [TEST_STEP][PASSED] - seqAcq1 = SeqAcq * 1000: null
+
+2020-05-21 15:03:04 - [TEST_STEP][PASSED] - jdAcq = seqAcq1: null
+
+2020-05-21 15:03:04 - [TEST_STEP][PASSED] - jdAcquereur = $jdAcq: null
+
+2020-05-21 15:03:04 - [TEST_STEP][NOT_RUN] - getText(findTestObject("Acquereur/verif-modif/Page_IAD/div_Monsieur")): NOT_RUN: getText(findTestObject("Acquereur/verif-modif/Page_IAD/div_Monsieur"))
+
+2020-05-21 15:03:04 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("Acquereur/verif-modif/Page_IAD/div_Monsieur"))
+
+2020-05-21 15:03:04 - [TEST_STEP][PASSED] - Nom = "Acquereur1" + jdAcquereur: null
+
+2020-05-21 15:03:04 - [TEST_STEP][PASSED] - setText(findTestObject("Acquereur/verif-modif/Page_IAD/input_concat(Prnom de l  acqureur)_mat-input-3"), Nom): Text 'Acquereur1764' is set on object 'Object Repository/Acquereur/verif-modif/Page_IAD/input_concat(Prnom de l  acqureur)_mat-input-3'
+
+2020-05-21 15:03:31 - [MESSAGE][PASSED] - Text 'Acquereur1764' is set on object 'Object Repository/Acquereur/verif-modif/Page_IAD/input_concat(Prnom de l  acqureur)_mat-input-3'
+
+2020-05-21 15:03:31 - [TEST_STEP][PASSED] - Prenom = "Acquereur2" + jdAcquereur: null
+
+2020-05-21 15:03:31 - [TEST_STEP][PASSED] - setText(findTestObject("Acquereur/verif-modif/Page_IAD/input_Genre_mat-input-2"), Prenom): Text 'Acquereur2764' is set on object 'Object Repository/Acquereur/verif-modif/Page_IAD/input_Genre_mat-input-2'
+
+2020-05-21 15:03:36 - [MESSAGE][PASSED] - Text 'Acquereur2764' is set on object 'Object Repository/Acquereur/verif-modif/Page_IAD/input_Genre_mat-input-2'
+
+2020-05-21 15:03:36 - [TEST_STEP][PASSED] - setText(findTestObject("Acquereur/verif-modif/Page_IAD/input_ADRESSE_mat-input-7"), "FRANCE"): Text 'FRANCE' is set on object 'Object Repository/Acquereur/verif-modif/Page_IAD/input_ADRESSE_mat-input-7'
+
+2020-05-21 15:03:41 - [MESSAGE][PASSED] - Text 'FRANCE' is set on object 'Object Repository/Acquereur/verif-modif/Page_IAD/input_ADRESSE_mat-input-7'
+
+2020-05-21 15:03:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-05-21 15:03:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-05-21 15:03:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Acquereur/verif-modif/Page_IAD/input_ADRESSE_mat-input-7"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Acquereur/verif-modif/Page_IAD/input_ADRESSE_mat-input-7'
+
+2020-05-21 15:03:45 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Acquereur/verif-modif/Page_IAD/input_ADRESSE_mat-input-7'
+
+2020-05-21 15:03:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Acquereur/verif-modif/Page_IAD/input_ADRESSE_mat-input-7"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Acquereur/verif-modif/Page_IAD/input_ADRESSE_mat-input-7'
+
+2020-05-21 15:03:47 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Acquereur/verif-modif/Page_IAD/input_ADRESSE_mat-input-7'
+
+2020-05-21 15:03:47 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-21 15:03:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-21 15:03:52 - [TEST_STEP][PASSED] - setText(findTestObject("Acquereur/verif-modif/Page_IAD/input_Pays_1589990366660"), "a"): Text 'a' is set on object 'Object Repository/Acquereur/verif-modif/Page_IAD/input_Pays_1589990366660'
+
+2020-05-21 15:03:57 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/Acquereur/verif-modif/Page_IAD/input_Pays_1589990366660'
+
+2020-05-21 15:03:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-05-21 15:03:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-05-21 15:03:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Acquereur/verif-modif/Page_IAD/input_Pays_1589990366660"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Acquereur/verif-modif/Page_IAD/input_Pays_1589990366660'
+
+2020-05-21 15:04:00 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Acquereur/verif-modif/Page_IAD/input_Pays_1589990366660'
+
+2020-05-21 15:04:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Acquereur/verif-modif/Page_IAD/input_Pays_1589990366660"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Acquereur/verif-modif/Page_IAD/input_Pays_1589990366660'
+
+2020-05-21 15:04:02 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Acquereur/verif-modif/Page_IAD/input_Pays_1589990366660'
+
+2020-05-21 15:04:02 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-21 15:04:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-21 15:04:07 - [TEST_STEP][PASSED] - emailAcq = "Acquereur3" + jdAcquereur + "@gmail.com": null
+
+2020-05-21 15:04:07 - [TEST_STEP][PASSED] - setText(findTestObject("Acquereur/verif-modif/Page_IAD/input_INFORMATIONS COMPLMENTAIRES_mat-input-9"), emailAcq): Text 'Acquereur3764@gmail.com' is set on object 'Object Repository/Acquereur/verif-modif/Page_IAD/input_INFORMATIONS COMPLMENTAIRES_mat-input-9'
+
+2020-05-21 15:04:12 - [MESSAGE][PASSED] - Text 'Acquereur3764@gmail.com' is set on object 'Object Repository/Acquereur/verif-modif/Page_IAD/input_INFORMATIONS COMPLMENTAIRES_mat-input-9'
+
+2020-05-21 15:04:12 - [TEST_STEP][PASSED] - SeqphoneAcq = Math.random() * 9 - 6: null
+
+2020-05-21 15:04:12 - [TEST_STEP][PASSED] - ifseq1 = SeqphoneAcq: null
+
+2020-05-21 15:04:12 - [TEST_STEP][PASSED] - if (ifseq1 == 0): null
+
+2020-05-21 15:04:12 - [TEST_STEP][PASSED] - SeqphoneAcq1 = SeqphoneAcq * 100000000: null
+
+2020-05-21 15:04:12 - [TEST_STEP][PASSED] - phone6 = SeqphoneAcq1: null
+
+2020-05-21 15:04:12 - [TEST_STEP][PASSED] - println(phone6): null
+
+2020-05-21 15:04:12 - [TEST_STEP][PASSED] - setText(findTestObject("Acquereur/verif-modif/Page_IAD/input_E-mail invalide_mat-input-10"), "01" + phone6): Text '0150414247' is set on object 'Object Repository/Acquereur/verif-modif/Page_IAD/input_E-mail invalide_mat-input-10'
+
+2020-05-21 15:04:17 - [MESSAGE][PASSED] - Text '0150414247' is set on object 'Object Repository/Acquereur/verif-modif/Page_IAD/input_E-mail invalide_mat-input-10'
+
+2020-05-21 15:04:17 - [TEST_STEP][FAILED] - click(findTestObject("Acquereur/Page_IAD/mat-icon_Test255_bi-avatar-icon mat-icon notranslate fas fa-plus-circle mat-icon-no-color")): Unable to click on object 'Object Repository/Acquereur/Page_IAD/mat-icon_Test255_bi-avatar-icon mat-icon notranslate fas fa-plus-circle mat-icon-no-color' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Acquereur/Page_IAD/mat-icon_Test255_bi-avatar-icon mat-icon notranslate fas fa-plus-circle mat-icon-no-color'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at IA-integration.run(IA-integration:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590072924896.run(TempTestSuite1590072924896.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Acquereur/Page_IAD/mat-icon_Test255_bi-avatar-icon mat-icon notranslate fas fa-plus-circle mat-icon-no-color' located by 'By.xpath: //mat-icon[@class = 'bi-avatar-icon mat-icon notranslate fas fa-plus-circle mat-icon-no-color active' and @fonticon = 'fa-plus-circle' and @ng-reflect-font-set = 'fas' and @ng-reflect-font-icon = 'fa-plus-circle' and @ng-reflect-fx-layout-align = 'center']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1589979671703.run(Script1589979671703.groovy:88)
+	... 13 more
+)
+
+2020-05-21 15:05:01 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //mat-icon[@class = 'bi-avatar-icon mat-icon notranslate fas fa-plus-circle mat-icon-no-color active' and @fonticon = 'fa-plus-circle' and @ng-reflect-font-set = 'fas' and @ng-reflect-font-icon = 'fa-plus-circle' and @ng-reflect-fx-layout-align = 'center']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-05-21 15:05:02 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Acquereur/Page_IAD/mat-icon_Test255_bi-avatar-icon mat-icon notranslate fas fa-plus-circle mat-icon-no-color' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Acquereur/Page_IAD/mat-icon_Test255_bi-avatar-icon mat-icon notranslate fas fa-plus-circle mat-icon-no-color'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at IA-integration.run(IA-integration:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590072924896.run(TempTestSuite1590072924896.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Acquereur/Page_IAD/mat-icon_Test255_bi-avatar-icon mat-icon notranslate fas fa-plus-circle mat-icon-no-color' located by 'By.xpath: //mat-icon[@class = 'bi-avatar-icon mat-icon notranslate fas fa-plus-circle mat-icon-no-color active' and @fonticon = 'fa-plus-circle' and @ng-reflect-font-set = 'fas' and @ng-reflect-font-icon = 'fa-plus-circle' and @ng-reflect-fx-layout-align = 'center']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1589979671703.run(Script1589979671703.groovy:88)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\nezha.e\\Desktop\\Katalon\\Reports\\20200521_145524\\Integration-IA-Contact\\20200521_145524\\1590073501813.png]]]]></system-out>
+         <system-err><![CDATA[2020-05-21 14:59:54 - [TEST_CASE][FAILED] - Test Cases/IA-integration: Test Cases/IA-integration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Acquereur/Page_IAD/mat-icon_Test255_bi-avatar-icon mat-icon notranslate fas fa-plus-circle mat-icon-no-color'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at IA-integration.run(IA-integration:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590072924896.run(TempTestSuite1590072924896.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Acquereur/Page_IAD/mat-icon_Test255_bi-avatar-icon mat-icon notranslate fas fa-plus-circle mat-icon-no-color' located by 'By.xpath: //mat-icon[@class = 'bi-avatar-icon mat-icon notranslate fas fa-plus-circle mat-icon-no-color active' and @fonticon = 'fa-plus-circle' and @ng-reflect-font-set = 'fas' and @ng-reflect-font-icon = 'fa-plus-circle' and @ng-reflect-fx-layout-align = 'center']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-21 14:55:26 - [TEST_SUITE][FAILED] - Integration-IA-Contact: Test Cases/IA-integration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Acquereur/Page_IAD/mat-icon_Test255_bi-avatar-icon mat-icon notranslate fas fa-plus-circle mat-icon-no-color'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at IA-integration.run(IA-integration:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590072924896.run(TempTestSuite1590072924896.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Acquereur/Page_IAD/mat-icon_Test255_bi-avatar-icon mat-icon notranslate fas fa-plus-circle mat-icon-no-color' located by 'By.xpath: //mat-icon[@class = 'bi-avatar-icon mat-icon notranslate fas fa-plus-circle mat-icon-no-color active' and @fonticon = 'fa-plus-circle' and @ng-reflect-font-set = 'fas' and @ng-reflect-font-icon = 'fa-plus-circle' and @ng-reflect-fx-layout-align = 'center']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-05-21 14:55:26 - [TEST_SUITE][FAILED] - Integration-IA-Contact: Test Cases/IA-integration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Acquereur/Page_IAD/mat-icon_Test255_bi-avatar-icon mat-icon notranslate fas fa-plus-circle mat-icon-no-color'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at IA-integration.run(IA-integration:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590072924896.run(TempTestSuite1590072924896.groovy:37)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Acquereur/Page_IAD/mat-icon_Test255_bi-avatar-icon mat-icon notranslate fas fa-plus-circle mat-icon-no-color' located by 'By.xpath: //mat-icon[@class = 'bi-avatar-icon mat-icon notranslate fas fa-plus-circle mat-icon-no-color active' and @fonticon = 'fa-plus-circle' and @ng-reflect-font-set = 'fas' and @ng-reflect-font-icon = 'fa-plus-circle' and @ng-reflect-fx-layout-align = 'center']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>
